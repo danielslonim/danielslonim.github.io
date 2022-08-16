@@ -1,0 +1,9809 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\rightmargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Probability Exercises
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Combinatorics
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Section
+Problems
+\end_layout
+
+\begin_layout Enumerate
+Suppose a License plate must consist of 7 numbers of letter.
+ How many license plates are there if
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+there can only be letters?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $26^{7}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+the first three places are numbers and the last four are letters?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $10^{3}\cdot26^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+the first three places are numbers and the last four are letters, but there
+ can not be any repetitions in the same license plate?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $10\cdot9\cdot8\cdot26\cdot25\cdot24\cdot23$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+A school of 50 students has awards for the top math, english, history and
+ science student in the school
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How many ways can these awards be given if each student can only win one
+ award?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $50\cdot49\cdot48\cdot47$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+How many ways can these awards be given if students can win multiple awards?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $50^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+An iPhone password can be made up of any 4 digit combination.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How many different passwords are possible? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $10^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+How many are possible if all the digits are odd? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $5^{4}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+How many can be made in which all digits are different or all digits are
+ the same?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $10\cdot9\cdot8\cdot7+10$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+There is a class of 25 people made up of 11 guys and 14 girls.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How many ways are there to make a committee of 5 people?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $\left(\begin{array}{c}
+25\\
+5
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+How many ways are there to pick a committee of all girls?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $\left(\begin{array}{c}
+14\\
+5
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+How many ways are there to pick a committee of 3 girls and 2 guys?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $\left(\begin{array}{c}
+14\\
+3
+\end{array}\right)\cdot\left(\begin{array}{c}
+11\\
+2
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+If a student council contains 10 people, how many ways are there to elect
+ a president, a vice president, and a 3 person prom committee from the group
+ of 10 students?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $10\cdot9\cdot\left(\begin{array}{c}
+8\\
+3
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose you are organizing your textbooks on a book shelf.
+ You have three chemistry books, 5 math books, 2 history books and 3 english
+ books.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How many ways can you order the textbooks if you must have math books first,
+ english books second, chemistry third, and history fourth?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $5!3!3!2!$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+How many ways can you order the books if each subject must be ordered together?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $4!\left(5!3!3!2!\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+You buy a Powerball lottery ticket.
+ You choose 5 numbers between 1 and 59 (picked on white balls) and one number
+ between 1 and 35 (picked on a red ball).How many ways can you 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+win the jackpot (guess all the numbers correctly)? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+match all the white balls but not the red ball? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $\left(\begin{array}{c}
+5\\
+5
+\end{array}\right)\cdot34$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+match 3 white balls and the red ball?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula $\left(\begin{array}{c}
+5\\
+3
+\end{array}\right)\cdot\left(\begin{array}{c}
+54\\
+2
+\end{array}\right)\cdot1$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+A couple wants to invite their friends to be in their wedding party.
+ The groom has 8 possible groomsmen and the bride has 11 possible bridesmaids.
+ The wedding party will consist of 5 groomsman and 5 bridesmaids.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How many wedding party's are possible? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\begin_inset Formula $\left(\begin{array}{c}
+8\\
+5
+\end{array}\right)\cdot\left(\begin{array}{c}
+11\\
+5
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that two of the possible groomsmen are feuding and will only accept
+ an invitation if the other one is not going.
+ How many wedding party's are possible? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\begin_inset Formula $\left(\begin{array}{c}
+6\\
+5
+\end{array}\right)\cdot\left(\begin{array}{c}
+11\\
+5
+\end{array}\right)+\left(\begin{array}{c}
+2\\
+1
+\end{array}\right)\cdot\left(\begin{array}{c}
+6\\
+4
+\end{array}\right)\cdot\left(\begin{array}{c}
+11\\
+5
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that two of the possible bridesmaids are feuding and will only accept
+ an invitation if the other one is not going.
+ How many wedding party's are possible? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\begin_inset Formula $\left(\begin{array}{c}
+8\\
+5
+\end{array}\right)\cdot\left(\begin{array}{c}
+9\\
+5
+\end{array}\right)+\left(\begin{array}{c}
+8\\
+5
+\end{array}\right)\cdot\left(\begin{array}{c}
+2\\
+1
+\end{array}\right)\cdot\left(\begin{array}{c}
+9\\
+4
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that one possible groosman and one possible woman refuse to serve
+ together.
+ How many wedding party's are possible? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\begin_inset Formula $\left(\begin{array}{c}
+7\\
+5
+\end{array}\right)\cdot\left(\begin{array}{c}
+10\\
+5
+\end{array}\right)+1\cdot\left(\begin{array}{c}
+7\\
+4
+\end{array}\right)\cdot\left(\begin{array}{c}
+10\\
+5
+\end{array}\right)+\left(\begin{array}{c}
+7\\
+5
+\end{array}\right)\cdot1\cdot\left(\begin{array}{c}
+10\\
+4
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+There are 52 cards in a standard deck of playing cards.
+ The poker hand is consists of five cards.
+ How many poker hands are there?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\begin_inset Formula $\left(\begin{array}{c}
+52\\
+5
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+There are 30 people in a communications class.
+ Each student must have a conversation with each student in the class for
+ a project.
+ How many total convesations will there be? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\begin_inset Formula $\left(\begin{array}{c}
+30\\
+2
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose a college basketball tournament consists of 64 teams playing head
+ to head in a knockout style tournament.
+ There are 6 rounds, the round of 64, round of 32, round of 16, round of
+ 8, the final four teams, and the finals.
+ Suppose you are filling out a bracket such as this 
+\begin_inset Graphics
+	filename pics/1.1.gif
+	scale 20
+	rotateOrigin center
+
+\end_inset
+
+which specifies which teams will win each game in each round.
+ How many possible brackets can you make? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+First notice that the 64 teams play 63 total games: 32 games in the first
+ round, 16 in the second round, 8 in the 3rd round, 4 in the regional finals,
+ 2 in the final four, and then the national championship game.That is, 32+16+8+4+
+2+1= 63.
+ Since there are 63 games to be played, and you have two choices at each
+ stage in your bracket, there are 
+\begin_inset Formula $2^{63}$
+\end_inset
+
+ different ways to fill out the bracket.
+ That is
+\begin_inset Formula 
+\[
+2^{63}=9,223,372,036,854,775,808.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+The probability set up
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose a box contains 3 balls : 1 red, 1 green, and 1 blue
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Consider an experiment that consists of taking 1 ball from the box and then
+ replacing it in the box and drawing a second ball from the box.
+ List all possible outcomes.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Since every marble can be drawn firrst and every marble can be drawn second,
+ there are 32 = 9 possibilities: RR, RG, RB, GR, GG, GB, BR, BG, and BB
+ (we let the first letter of the color of the drawn marble represent the
+ draw).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Consider an experiment that consists of taking 1 ball from the box and then
+ drawing a second ball from the box without replacing the first.
+ List all possible outcomes.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ In this case, the color of the second marble cannot match the color of
+ the rst, so there are 6 possibilities: RG, RB, GR, GB, BR, and BG.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Suppose that 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ are mutually exclusive events for which 
+\begin_inset Formula $P(A)=.3$
+\end_inset
+
+ and 
+\begin_inset Formula $P(B)=.5$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that 
+\begin_inset Formula $A$
+\end_inset
+
+ occurs but 
+\begin_inset Formula $B$
+\end_inset
+
+ does not? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Since 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ are mutually exclusive, the only way 
+\begin_inset Formula $A$
+\end_inset
+
+ can occur is when 
+\begin_inset Formula $B$
+\end_inset
+
+ does not.
+ This means that
+\begin_inset Formula $P(A\cap B^{c})=P(A)=.3.$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is the probability that neither 
+\begin_inset Formula $A$
+\end_inset
+
+ nor 
+\begin_inset Formula $B$
+\end_inset
+
+ occurs? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Since 
+\begin_inset Formula $A\cap B=\emptyset$
+\end_inset
+
+.
+ Axiom 3 tell us that 
+\begin_inset Formula $P(A\cup B)=P(A)+P(B)=.8$
+\end_inset
+
+.
+ Since we want 
+\begin_inset Formula $P(A^{c}\cap B^{c})$
+\end_inset
+
+, we use DeMorgan's law to see that this is 
+\begin_inset Formula $P(A^{c}\cap B^{c})=P\left(\left(A\cup B\right)^{c}\right)=1-\mathbb{P}(A\cup B)=.2$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Forty percent of college students from a certain college are members of
+ neither an academic club nor a greek organization.
+ Fifty percent are members of academic clubs while thirty percent are members
+ of a greek organization.
+ Suppose a student is chosen at random, what is the probability that this
+ students is a member
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+of an academic club or a greek organization?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\mathbb{P}\left(A\cup B\right)=1-\mathbb{P}\left(\left(A\cup B\right)^{c}\right)=1-.4=.6$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+of an academic club and a greek organization?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $.6=\mathbb{P}\left(A\cup B\right)=\mathbb{P}\left(A\right)+\mathbb{P}\left(B\right)-\mathbb{P}\left(A\cap B\right)=.5+.3-\mathbb{P}\left(A\cap B\right)$
+\end_inset
+
+ Thus 
+\begin_inset Formula $\mathbb{P}\left(A\cap B\right)=.2$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+In City, 60% of the households subscribe to newspaper A, 50% to newspaper
+ B, 40% to newspaper C, 30% to A and B, 20% to B and C, and 10% to A and
+ C, but none subscribe to all three.
+ (Hint: Draw a Venn diagram)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What percentage subscribe to exactly one newspaper?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+We use these percentages to produce the Venn diagram below:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Graphics
+	filename pics/2.1.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This tells us that 
+\begin_inset Formula $30\%$
+\end_inset
+
+ of households subscribe to exactly one paper.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What percentage subscribe to at most one newspaper?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+The Venn diagram tells us that 100% - (10% + 20% + 30%) = 40% of households
+ subscribe to at most one paper.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+There are 52 cards in a standard deck of playing cards.
+ The 
+\emph on
+poker hand 
+\emph default
+is consists of five cards.
+ There are 4 
+\emph on
+suits
+\emph default
+: heats, spades, diamonds, and clubs 
+\begin_inset Formula $\left(\heartsuit\spadesuit\diamondsuit\clubsuit\right)$
+\end_inset
+
+.
+ The suit's diamonds and clubs are red while clubs and spades are black.
+ In each suit there are 13 
+\emph on
+ranks
+\emph default
+: the numbers 
+\begin_inset Formula $2,3\dots,10$
+\end_inset
+
+, the face cards, Jack, Queen, King, and the Ace.
+ Find the probability of randomly drawing the following poker hands.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+All red cards?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\frac{\left(\begin{array}{c}
+26\\
+5
+\end{array}\right)}{\left(\begin{array}{c}
+52\\
+5
+\end{array}\right)}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Exactly two 10's and exactly three aces?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\frac{\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)\cdot\left(\begin{array}{c}
+4\\
+3
+\end{array}\right)}{\left(\begin{array}{c}
+52\\
+5
+\end{array}\right)}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+all face cards or no face cards?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\frac{\left(\begin{array}{c}
+12\\
+5
+\end{array}\right)}{\left(\begin{array}{c}
+52\\
+5
+\end{array}\right)}+\frac{\left(\begin{array}{c}
+40\\
+5
+\end{array}\right)}{\left(\begin{array}{c}
+52\\
+5
+\end{array}\right)}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Find the probability of randomly drawing the following poker hands.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A 
+\emph on
+one pair, 
+\emph default
+which consists of two cards of the same rank and three other distinct ranks.
+ (e.g.
+ 22Q59)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $13\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)\left(\begin{array}{c}
+12\\
+3
+\end{array}\right)\left(\begin{array}{c}
+4\\
+1
+\end{array}\right)\left(\begin{array}{c}
+4\\
+1
+\end{array}\right)\left(\begin{array}{c}
+4\\
+1
+\end{array}\right)\diagup\left(\begin{array}{c}
+52\\
+5
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A 
+\emph on
+two pair
+\emph default
+, which constists of two cards of the same rank, two cards of another rank,
+ and another card of yet another rank.
+ (e.g.
+ JJ779)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\left(\begin{array}{c}
+13\\
+2
+\end{array}\right)\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)\left(\begin{array}{c}
+44\\
+1
+\end{array}\right)\diagup\left(\begin{array}{c}
+52\\
+5
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A 
+\emph on
+three of a kind
+\emph default
+, which consists of a three cards of the same rank, and two others of distinct
+ rank.
+ (e.g.
+ 4449K)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $13\left(\begin{array}{c}
+4\\
+3
+\end{array}\right)\left(\begin{array}{c}
+12\\
+2
+\end{array}\right)\left(\begin{array}{c}
+4\\
+1
+\end{array}\right)\left(\begin{array}{c}
+4\\
+1
+\end{array}\right)\diagup\left(\begin{array}{c}
+52\\
+5
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A 
+\emph on
+flush
+\emph default
+, which consists of all five cards of the same suit.
+ (e.g.
+ HHHH, SSSS, DDDD, or CCCC)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $4\left(\begin{array}{c}
+13\\
+5
+\end{array}\right)\diagup\left(\begin{array}{c}
+52\\
+5
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A 
+\emph on
+full house
+\emph default
+, which consists of a two pair and a three of a kind.
+ (e.g.
+ 88844) (Hint: Note that 88844 is a different hand than a 44488)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $13\cdot12\left(\begin{array}{c}
+4\\
+3
+\end{array}\right)\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)\diagup\left(\begin{array}{c}
+52\\
+5
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Suppose a standard deck of cards is modifed with the additional rank of
+ 
+\emph on
+Super King
+\emph default
+ and the additional suit of 
+\emph on
+Swords
+\emph default
+ so now each card has one of 14 ranks and one of 5 suits.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+If a card is selected at random, what is the probability that it's the 
+\emph on
+Super King of Swords
+\emph default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\frac{1}{70}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What's the probability of getting a six card hand with exactly three pairs
+ (two cards of one rank and two cards of another rank and two cards of yet
+ another rank, e.g.
+ 7,7,2,2,J,J) ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\left(\begin{array}{c}
+14\\
+3
+\end{array}\right)\left(\begin{array}{c}
+5\\
+2
+\end{array}\right)\left(\begin{array}{c}
+5\\
+2
+\end{array}\right)\left(\begin{array}{c}
+5\\
+2
+\end{array}\right)\diagup\left(\begin{array}{c}
+70\\
+6
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What's the probability of getting a six card hand which constists of three
+ cards of the same rank, two cards of another rank, and another card of
+ yet another rank.
+ (e.g.
+ 3,3,3,A,A,7)? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $14\left(\begin{array}{c}
+5\\
+3
+\end{array}\right)13\left(\begin{array}{c}
+5\\
+2
+\end{array}\right)12\left(\begin{array}{c}
+5\\
+1
+\end{array}\right)\diagup\left(\begin{array}{c}
+70\\
+6
+\end{array}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+A pair of fair dice is rolled.
+ What is the probability that the first die lands on a strictly higher value
+ than the second die.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+Simple inspection we can see that the only possibilities 
+\begin_inset Formula 
+\begin{eqnarray*}
+\left(6,1\right)\left(6,2\right)\left(6,3\right)\left(6,4\right)\left(6,5\right) & \mbox{ 5 possibilities}\\
+\left(5,1\right)\left(5,2\right)\left(5,3\right)\left(5,4\right) & \mbox{4 possibilities}\\
+\left(4,1\right),(4,2),\left(4,3\right) & \mbox{3 possibilities}\\
+\left(3,1\right),\left(3,2\right) & \mbox{2 possibilities}\\
+\left(2,1\right) & \mbox{1 possibility}\\
+ & =\mbox{15 total}
+\end{eqnarray*}
+
+\end_inset
+
+Thus the probability is 
+\begin_inset Formula $\frac{15}{36}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+There are 8 students in a class.
+ What is the probability that at least two students share a common birthday
+ month? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $1-\frac{12\cdot11\cdot10\cdot9\cdot8\cdot7\cdot6\cdot5}{12^{8}}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Nine balls are randomly withdrawn from an urn that contains 10 blue, 12
+ red, and 15 green balls.
+ What is the probability that
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+2 blue, 5 red, and 2 green balls are withdrawn
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\frac{\left(\begin{array}{c}
+10\\
+2
+\end{array}\right)\left(\begin{array}{c}
+12\\
+5
+\end{array}\right)\left(\begin{array}{c}
+15\\
+2
+\end{array}\right)}{\left(\begin{array}{c}
+37\\
+9
+\end{array}\right)}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+at least 2 blue balls are withdrawn.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $1-\frac{\left(\begin{array}{c}
+27\\
+9
+\end{array}\right)}{\left(\begin{array}{c}
+37\\
+9
+\end{array}\right)}-\frac{\left(\begin{array}{c}
+10\\
+1
+\end{array}\right)\left(\begin{array}{c}
+27\\
+8
+\end{array}\right)}{\left(\begin{array}{c}
+37\\
+9
+\end{array}\right)}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Suppose 4 valedictorians (from different high schools) were all accepted
+ to the 8 Ivy League universities.
+ What is the probability that they each choose to go to a different Ivy
+ League university? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\frac{8\cdot7\cdot6\cdot5}{8^{4}}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Independence
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ be two independent events with 
+\begin_inset Formula $P\left(A\right)=.4$
+\end_inset
+
+ and 
+\begin_inset Formula $P\left(A\cup B\right)=.64$
+\end_inset
+
+.
+ What is 
+\begin_inset Formula $P(B)$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Using independence we have 
+\begin_inset Formula $\mathbb{P}\left(A\cup B\right)=\mathbb{P}(A)+\mathbb{P}(B)-\mathbb{P}(A\cap B)=\mathbb{P}(A)+\mathbb{P}(B)-\mathbb{P}(A)\mathbb{P}\left(B\right)$
+\end_inset
+
+ and substituting we have 
+\begin_inset Formula 
+\[
+.64=.4+\mathbb{P}\left(B\right)-.4\mathbb{P}\left(B\right).
+\]
+
+\end_inset
+
+Solving for 
+\begin_inset Formula $\mathbb{P}\left(B\right)$
+\end_inset
+
+ we have 
+\begin_inset Formula $\mathbb{P}\left(B\right)=.4$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+In a class, there are 4 male math majors, 6 female math majors, and 6 male
+ actuarial science majors.
+ How many actuarial science girls must be present in the class if sex and
+ major are independent when choosing a student selected at random?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Let 
+\begin_inset Formula $x$
+\end_inset
+
+ be the number of actuarial science girls.
+ Then 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(Boy\cap Math\right) & = & \frac{4}{16+x},\\
+\mathbb{P}\left(Boy\right) & = & \frac{10}{16+x}\\
+\mathbb{P}\left(Math\right) & = & \frac{10}{16+x}.
+\end{eqnarray*}
+
+\end_inset
+
+Then using independence 
+\begin_inset Formula $\mathbb{P}\left(Boy\cap Math\right)=\mathbb{P}\left(Boy\right)\mathbb{P}\left(Math\right)$
+\end_inset
+
+ so that 
+\begin_inset Formula 
+\[
+\frac{4}{16+x}=\frac{10^{2}}{\left(16+x\right)^{2}}\implies4=\frac{100}{16+x}
+\]
+
+\end_inset
+
+and solving for 
+\begin_inset Formula $x$
+\end_inset
+
+ we have 
+\begin_inset Formula $x=9$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+An urn contains 10 balls: 4 red and 6 blue.
+ A second urn contains 16 red balls and an unknown number of blue balls.
+ A single ball is drawn from each urn.
+ The probability that both balls are the same color is 
+\begin_inset Formula $0.44$
+\end_inset
+
+.
+ Calculate the number of blue balls in the second urn.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Let 
+\begin_inset Formula $R_{i}=$
+\end_inset
+
+ even that a red ball is drawn from urn 
+\begin_inset Formula $i$
+\end_inset
+
+ and let 
+\begin_inset Formula $B_{i}=$
+\end_inset
+
+event that a blue ball is drawn from urn 
+\begin_inset Formula $i$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Let 
+\begin_inset Formula $x$
+\end_inset
+
+ be the number of blue balls in urn 
+\begin_inset Formula $2$
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Itemize
+Then 
+\begin_inset Formula 
+\begin{eqnarray*}
+.44 & = & \mathbb{P}\left(\left(R_{1}\cap R_{2}\right)\bigcup\left(B_{1}\cap B_{2}\right)\right)=\mathbb{P}\left(R_{1}\cap R_{2}\right)+\mathbb{P}\left(B_{1}\cap B_{2}\right)\\
+ & = & \mathbb{P}\left(R_{1}\right)\mathbb{P}\left(R_{2}\right)+\mathbb{P}\left(B_{1}\right)\mathbb{P}\left(B_{2}\right)\\
+ & = & \frac{4}{10}\frac{16}{x+16}+\frac{6}{10}\frac{x}{x+16}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Solve for 
+\begin_inset Formula $x$
+\end_inset
+
+! You will get 
+\begin_inset Formula $x=4$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Conditional Probability
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Two dice are rolled.
+ Let 
+\begin_inset Formula $A=\left\{ \mbox{sum of two dice equals 3}\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $B=\left\{ \mbox{sum of two dice equals 7 }\right\} $
+\end_inset
+
+, and 
+\begin_inset Formula $C=\left\{ \mbox{at least one of the dice shows a 1}\right\} $
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is 
+\begin_inset Formula $\mathbb{P}\left(A\mid C\right)?$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+Note that the sample space is 
+\begin_inset Formula $S=\left\{ \left(i,j\right)\mid i,j=1,2,3,4,5,6\right\} $
+\end_inset
+
+ with each outcome equally likely.
+ Then 
+\begin_inset Formula 
+\begin{eqnarray*}
+A & = & \left\{ \left(1,2\right),\left(2,1\right)\right\} \\
+B & = & \left\{ \left(1,6\right),\left(2,5\right),\left(3,4\right),\left(4,3\right),\left(5,2\right),\left(6,1\right)\right\} \\
+C & = & \left\{ \left(1,1\right),\left(1,2\right),\left(1,3\right),\left(1,4\right),\left(1,5\right),\left(1,6\right),\left(2,1\right),\left(3,1\right),\left(4,1\right),(5,1),(6,1)\right\} 
+\end{eqnarray*}
+
+\end_inset
+
+Then 
+\begin_inset Formula 
+\[
+\mathbb{P}\left(A\mid C\right)=\frac{\mathbb{P}\left(A\cap C\right)}{\mathbb{P}(C)}=\frac{2/36}{11/36}=\frac{2}{11}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is 
+\begin_inset Formula $\mathbb{P}\left(B\mid C\right)$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula 
+\[
+\mathbb{P}\left(B\mid C\right)=\frac{\mathbb{P}\left(B\cap C\right)}{\mathbb{P}(C)}=\frac{2/36}{11/36}=\frac{2}{11}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Are 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $C$
+\end_inset
+
+ indepedent? What about 
+\begin_inset Formula $B$
+\end_inset
+
+ and 
+\begin_inset Formula $C$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+Note that 
+\begin_inset Formula $\mathbb{P}(A)=2/36\neq\mathbb{P}\left(A\mid C\right)$
+\end_inset
+
+, so they are not independent.
+ Similarly, 
+\begin_inset Formula $\mathbb{P}\left(B\right)=6/36\neq\mathbb{P}(B\mid C)$
+\end_inset
+
+, so they are not independent.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Suppose you roll a two standard, fair, 6-sided dice.
+ What is the probability that the sum is at least 
+\begin_inset Formula $9$
+\end_inset
+
+ given that you rolled at least one 
+\begin_inset Formula $6$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Let 
+\begin_inset Formula $E$
+\end_inset
+
+ be the event 
+\begin_inset Quotes eld
+\end_inset
+
+there is at least one 6" and 
+\begin_inset Formula $F$
+\end_inset
+
+ be the event }the sum is at least 9
+\begin_inset Quotes erd
+\end_inset
+
+ We want to calculate 
+\begin_inset Formula $\mathbb{P}\left(F\mid E\right)$
+\end_inset
+
+.
+ Begin by noting that there are 36 possible rolls of these two dice and
+ all of them are equally likely.
+ We can see that 11 different rolls of these two dice will result in at
+ least one 6, so 
+\begin_inset Formula $\mathbb{P}(E)$
+\end_inset
+
+ = 
+\begin_inset Formula $\frac{11}{36}$
+\end_inset
+
+ .
+ There are 7 different rolls that will result in at least one 6 and a sum
+ of at least 9 .
+ They are 
+\begin_inset Formula $((6,3),(6,4),(6,5),(6,6),(3,6),(4,6),(5,6)$
+\end_inset
+
+), so 
+\begin_inset Formula $\mathbb{P}\left(E\cap F\right)=\frac{7}{36}$
+\end_inset
+
+ .
+ This tells us that 
+\begin_inset Formula 
+\[
+\mathbb{P}\left(F\mid E\right)=\frac{\mathbb{P}\left(E\cap F\right)}{\mathbb{P}(E)}=\frac{7/36}{11/36}=\frac{7}{11}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that Annabelle and Bobby each draw 13 cards from a standard deck
+ of 52.
+ Given that Sarah has exactly two aces, what is the probability that Bobby
+ has exactly one ace?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Let 
+\begin_inset Formula $A$
+\end_inset
+
+ be the event 
+\begin_inset Quotes eld
+\end_inset
+
+Annabelle has two aces," and let 
+\begin_inset Formula $B$
+\end_inset
+
+ be the event 
+\begin_inset Quotes eld
+\end_inset
+
+Bobby has exactly one ace." Again, we want 
+\begin_inset Formula $\mathbb{P}\left(B\mid A\right)$
+\end_inset
+
+, so we calculate 
+\begin_inset Formula $\mathbb{P}(A)$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbb{P}(A\cap B)$
+\end_inset
+
+.
+ Annabelle could have any of 
+\begin_inset Formula $\left(\begin{array}{c}
+52\\
+13
+\end{array}\right)$
+\end_inset
+
+ possible hands.
+ Of these hands, 
+\begin_inset Formula $\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)\cdot\left(\begin{array}{c}
+48\\
+11
+\end{array}\right)$
+\end_inset
+
+ will have exactly two aces, so 
+\begin_inset Formula 
+\[
+\mathbb{P}\left(A\right)=\frac{\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)\cdot\left(\begin{array}{c}
+48\\
+11
+\end{array}\right)}{\left(\begin{array}{c}
+52\\
+13
+\end{array}\right)}.
+\]
+
+\end_inset
+
+Now the number of ways in which Annabelle can have a certain hand and Bobby
+ can have a certain hand is 
+\begin_inset Formula $\left(\begin{array}{c}
+52\\
+13
+\end{array}\right)\cdot\left(\begin{array}{c}
+39\\
+13
+\end{array}\right),$
+\end_inset
+
+ and the number of ways in which 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ can both occur is 
+\begin_inset Formula $\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)\cdot\left(\begin{array}{c}
+48\\
+11
+\end{array}\right)\cdot\left(\begin{array}{c}
+2\\
+1
+\end{array}\right)\cdot\left(\begin{array}{c}
+37\\
+12
+\end{array}\right)$
+\end_inset
+
+.
+ so 
+\begin_inset Formula 
+\[
+\mathbb{P}(A\cap B)=\frac{\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)\cdot\left(\begin{array}{c}
+48\\
+11
+\end{array}\right)\cdot\left(\begin{array}{c}
+2\\
+1
+\end{array}\right)\cdot\left(\begin{array}{c}
+37\\
+12
+\end{array}\right)}{\left(\begin{array}{c}
+52\\
+13
+\end{array}\right)\cdot\left(\begin{array}{c}
+39\\
+13
+\end{array}\right)}.
+\]
+
+\end_inset
+
+Therefore, 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(B\mid A\right) & = & \frac{\mathbb{P}\left(A\cap B\right)}{\mathbb{P}(A)}=\frac{\frac{\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)\cdot\left(\begin{array}{c}
+48\\
+11
+\end{array}\right)\cdot\left(\begin{array}{c}
+2\\
+1
+\end{array}\right)\cdot\left(\begin{array}{c}
+37\\
+12
+\end{array}\right)}{\left(\begin{array}{c}
+52\\
+13
+\end{array}\right)\cdot\left(\begin{array}{c}
+39\\
+13
+\end{array}\right)}}{\frac{\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)\cdot\left(\begin{array}{c}
+48\\
+11
+\end{array}\right)}{\left(\begin{array}{c}
+52\\
+13
+\end{array}\right)}}\\
+ & = & \frac{\left(\begin{array}{c}
+2\\
+1
+\end{array}\right)\cdot\left(\begin{array}{c}
+37\\
+12
+\end{array}\right)}{\left(\begin{array}{c}
+39\\
+13
+\end{array}\right)}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that 60% of UConn students will be exposed to the flu.
+ If you are exposed and didn't get the flu shot, then the probability that
+ you will get the flu (
+\emph on
+after being exposed
+\emph default
+) is 80%, but if you did get the flu shot, the probability that you will
+ get the flu (
+\emph on
+after being exposed
+\emph default
+) is only 15%.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that a person who got the flu shot will get the
+ flu ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Suppose we look at students who have gotten the flu shot.
+ Let
+\begin_inset Formula $E$
+\end_inset
+
+ be the event 
+\begin_inset Quotes eld
+\end_inset
+
+a student is exposed to the flu
+\begin_inset Quotes erd
+\end_inset
+
+ and let 
+\begin_inset Formula $F$
+\end_inset
+
+ be the event 
+\begin_inset Quotes eld
+\end_inset
+
+a student gets the flu
+\begin_inset Quotes erd
+\end_inset
+
+.
+ We know that 
+\begin_inset Formula $P(E)=60\%$
+\end_inset
+
+ and 
+\begin_inset Formula $P(F\mid E)=15\%$
+\end_inset
+
+.
+ This means that 
+\begin_inset Formula $P(E\cap F)=\left(.6\right)\left(.15\right)=.09$
+\end_inset
+
+, and it is clear that 
+\begin_inset Formula $P(E^{c}\cap F)=0$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $P(F)=P(E\cap F)+P(E^{c}\cap F)$
+\end_inset
+
+, we see that
+\begin_inset Formula $P(F)=.09.$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is the probability that a person who did not get the flu shot will
+ get the flu?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Suppose we look at students who have not gotten the flu shot.
+ Let 
+\begin_inset Formula $E$
+\end_inset
+
+ be the event 
+\begin_inset Quotes eld
+\end_inset
+
+a student is exposed to the flu
+\begin_inset Quotes erd
+\end_inset
+
+ and let 
+\begin_inset Formula $F$
+\end_inset
+
+ be the event 
+\begin_inset Quotes eld
+\end_inset
+
+a student gets the flu
+\begin_inset Quotes erd
+\end_inset
+
+.
+ We know that 
+\begin_inset Formula $P(E)=60\%$
+\end_inset
+
+ and 
+\begin_inset Formula $P(F\mid E)=80\%$
+\end_inset
+
+.
+ This means that 
+\begin_inset Formula $P(E\cap F)=(.6)\left(.8\right)=.48$
+\end_inset
+
+, and it is clear that 
+\begin_inset Formula $P(E^{c}\cap F)=0$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $P(F)=P(E\cap F)+P(E^{c}\cap F$
+\end_inset
+
+), we see that 
+\begin_inset Formula $P(F)=.48.$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Color blindness is a sex-linked condition, and 5% of men and 0.25% of women
+ are color blind.
+ The population of the United States is 51% female.
+ What is the probability that a color-blind American is a man?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+Let 
+\begin_inset Formula $M$
+\end_inset
+
+ be the event 
+\begin_inset Quotes eld
+\end_inset
+
+an American is a man" and let
+\begin_inset Formula $C$
+\end_inset
+
+ be the event 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ an American is color blind.".
+ Then 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(M\mid C\right) & = & \frac{\mathbb{P}\left(C\mid M\right)\mathbb{P}(M)}{\mathbb{P}\left(C\mid M\right)\mathbb{P}(M)+\mathbb{P}\left(C\mid M^{c}\right)\mathbb{P}(M^{c})}\\
+ & = & \frac{\left(.05\right)\left(.49\right)}{\left(.05\right)\left(.49\right)+\left(.0025\right)\left(.51\right)}\approx.9505.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that two factories supply light bulbs to the market.
+ Factory X’s bulbs work for over 5000 hours in 99% of cases, whereas factory
+ Y’s bulbs work for over 5000 hours in 95% of cases.
+ It is known that factory X supplies 60% of the total bulbs available.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the chance that a purchased bulb will work for longer than 5000
+ hours? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+Let 
+\begin_inset Formula $H$
+\end_inset
+
+ be the event 
+\begin_inset Quotes eld
+\end_inset
+
+works over 
+\begin_inset Formula $5000$
+\end_inset
+
+ hours
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be the event comes from factory 
+\begin_inset Formula $X$
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ be the event 
+\begin_inset Quotes eld
+\end_inset
+
+comes fom factory 
+\begin_inset Formula $Y$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Then by the Law of Total Probability 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(H\right) & = & \mathbb{P}\left(H\mid X\right)\mathbb{P}(X)+\mathbb{P}\left(H\mid Y\right)\mathbb{P}(Y)\\
+ & = & \left(.99\right)\left(.6\right)+\left(.95\right)\left(.4\right)\\
+ & = & .974.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Given that a lightbulb works for more than 5000 hours, what is the probability
+ that it came from factory 
+\begin_inset Formula $Y$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+By Part (a) we have 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(Y\mid H\right) & = & \frac{\mathbb{P}\left(H\mid Y\right)\mathbb{P}(Y)}{\mathbb{P}\left(H\right)}\\
+ & = & \frac{\left(.95\right)\left(.4\right)}{.974}\approx.39.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Given that a lightbulb work does not work for more than 5000 hours, what
+ is the probability that it came from factory 
+\begin_inset Formula $X$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+We again use the result from Part (a) 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X\mid H^{c}\right) & = & \frac{\mathbb{P}\left(H^{c}\mid X\right)\mathbb{P}(X)}{\mathbb{P}\left(H^{c}\right)}=\frac{\mathbb{P}\left(H^{c}\mid X\right)\mathbb{P}(X)}{1-\mathbb{P}\left(H\right)}\\
+ & = & \frac{\left(1-.99\right)\left(.6\right)}{1-.974}=\frac{\left(.01\right)\left(.6\right)}{.026}\\
+ & \approx & .23
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+A factory production line is manufacturing bolts using three machines, A,
+ B and C.
+ Of the total output, machine A is responsible for 25%, machine B for 35%
+ and machine C for the rest.
+ It is known from previous experience with the machines that 5% of the output
+ from machine A is defective, 4% from machine B and 2% from machine C.
+ A bolt is chosen at random from the production line and found to be defective.
+ What is the probability that it came from Machine 
+\begin_inset Formula $A$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Let 
+\begin_inset Formula $D=\left\{ \mbox{Bolt is defective}\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $A=\left\{ \mbox{bolt is form machine }A\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $B=\left\{ \mbox{bolt is from machine }C\right\} $
+\end_inset
+
+.
+ Then by Baye's theorem 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(A\mid D\right) & = & \frac{\mathbb{P}\left(D\mid A\right)\mathbb{P}(A)}{\mathbb{P}\left(D\mid A\right)\mathbb{P}(A)+\mathbb{P}\left(D\mid B\right)\mathbb{P}(B)+\mathbb{P}\left(D\mid C\right)\mathbb{P}(C)}\\
+ & = & \frac{\left(.05\right)\left(.25\right)}{\left(.05\right)\left(.25\right)+\left(.04\right)\left(.35\right)+\left(.02\right)\left(.4\right)}\\
+ & = & .362.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A multiple choice exam has 4 choices for each question.
+ A student has studied enough so that the probability they will know the
+ answer to a question is 0.5, the probability that they will be able to eliminate
+ one choice is 0.25, otherwise all 4 choices seem equally plausible.
+ If they know the answer they will get the question right.
+ If not they have to guess from the 3 or 4 choices.
+ As the teacher you want the test to measure what the student knows.
+ If the student answers a question correctly what's the probability they
+ knew the answer?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Let 
+\begin_inset Formula $C$
+\end_inset
+
+ be the vent the students the problem correct and 
+\begin_inset Formula $K$
+\end_inset
+
+ the event the students knows the answer.
+ Using Bayes' theorem we have 
+\begin_inset Formula 
+\begin{eqnarray*}
+ &  & P\left(K\mid C\right)\\
+ &  & =\frac{P(C\mid K)P(K)}{P(C)}\\
+ &  & =\frac{P(C\mid K)P(K)}{P(C\mid K)P(K)+P(C\mid\mbox{Eliminates})P(\mbox{Eliminates})+P(C\mid\mbox{Guess})P(\mbox{Guess})}\\
+ &  & =\frac{1\cdot\frac{1}{2}}{1\cdot\frac{1}{2}+\frac{1}{3}\cdot\frac{1}{4}+\frac{1}{4}\cdot\frac{1}{4}}=\frac{24}{31}\approx.774=77.4\%.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A blood test indicates the presence of a particular disease 95% of the time
+ when the disease is actually present.
+ The same test indicates the presence of the disease 0.5% of the time when
+ the disease is not actually present.
+ One percent of the population actually has the disease.
+ Calculate the probability that a person actually has the disease given
+ that the test indicates the presence of the disease.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Let 
+\begin_inset Formula $+$
+\end_inset
+
+ signiffy a positive test result, and 
+\begin_inset Formula $D$
+\end_inset
+
+ means dissease is present.
+ Then 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(D\mid+\right) & = & \frac{\mathbb{P}\left(+\mid D\right)P(D)}{P\left(+\mid D\right)P(D)+P(+\mid D^{c})P(D^{c})}\\
+ & = & \frac{\left(.95\right)(.01)}{\left(.95\right)\left(.01\right)+\left(.005\right)\left(.99\right)}\\
+ & = & .657.
+\end{eqnarray*}
+
+\end_inset
+
+ 
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Random Variables
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Two balls are chosen randomly from an urn containing 
+\begin_inset Formula $8$
+\end_inset
+
+ white balls, 
+\begin_inset Formula $4$
+\end_inset
+
+ black, and 
+\begin_inset Formula $2$
+\end_inset
+
+ orange balls.
+ Supose that we win 
+\begin_inset Formula $\$2$
+\end_inset
+
+ for each black ball selected and we lose 
+\begin_inset Formula $\$1$
+\end_inset
+
+ for each white ball selected.
+ Let 
+\begin_inset Formula $X$
+\end_inset
+
+ denote our winnings.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What are the possible values of 
+\begin_inset Formula $X$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+Note that 
+\begin_inset Formula $X=-2,-1,-0,1,2,4$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What are the probabilities associated to each value?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Then 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X=4\right)=\mathbb{P}\left(BB\right)=\frac{\left(\begin{array}{c}
+4\\
+2
+\end{array}\right)}{\left(\begin{array}{c}
+14\\
+2
+\end{array}\right)}=\frac{6}{91} &  & \mathbb{P}\left(X=0\right)=\mathbb{P}\left(OO\right)=\frac{\left(\begin{array}{c}
+2\\
+2
+\end{array}\right)}{\left(\begin{array}{c}
+14\\
+2
+\end{array}\right)}=\frac{1}{91}\\
+\mathbb{P}\left(X=2\right)=\mathbb{P}\left(BO\right)=\frac{\left(\begin{array}{c}
+4\\
+1
+\end{array}\right)\left(\begin{array}{c}
+2\\
+1
+\end{array}\right)}{\left(\begin{array}{c}
+14\\
+2
+\end{array}\right)}=\frac{8}{91} &  & \mathbb{P}\left(X=-1\right)=\mathbb{P}\left(WO\right)=\frac{\left(\begin{array}{c}
+8\\
+1
+\end{array}\right)\left(\begin{array}{c}
+2\\
+1
+\end{array}\right)}{\left(\begin{array}{c}
+14\\
+2
+\end{array}\right)}=\frac{16}{91}\\
+\mathbb{P}\left(X=1\right)=\mathbb{P}\left(BW\right)=\frac{\left(\begin{array}{c}
+4\\
+1
+\end{array}\right)\left(\begin{array}{c}
+8\\
+1
+\end{array}\right)}{\left(\begin{array}{c}
+14\\
+2
+\end{array}\right)}=\frac{32}{91} &  & \mathbb{P}\left(X=-2\right)=\mathbb{P}\left(WW\right)=\frac{\left(\begin{array}{c}
+8\\
+2
+\end{array}\right)}{\left(\begin{array}{c}
+14\\
+2
+\end{array}\right)}=\frac{28}{91}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+A card is drawn at random from a standard deck of playing cards.
+ If it is a heart, you win 
+\begin_inset Formula $\$1$
+\end_inset
+
+.
+ If it is a diamond, you have to pay 
+\begin_inset Formula $\$2$
+\end_inset
+
+.
+ If it is any other card, you win 
+\begin_inset Formula $\$3$
+\end_inset
+
+.
+ What is the expected value of your winnings?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula 
+\[
+\mathbb{E}X=1\cdot\frac{1}{4}+\left(-2\right)\frac{1}{4}+3\cdot\frac{1}{2}=\frac{5}{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The game of roulette consists of a small ball and a wheel with 38 numbered
+ pockets around the edge that includes the numbers 
+\begin_inset Formula $1-36,0$
+\end_inset
+
+ and 
+\begin_inset Formula $00$
+\end_inset
+
+.
+ As the wheel is spun, the ball bounces around randomly until it settles
+ down in one of the pockets.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Suppose you bet 
+\begin_inset Formula $\$1$
+\end_inset
+
+ on a single number and random variable 
+\begin_inset Formula $X$
+\end_inset
+
+ represents the (monetary) outcome (the money you win or lose).
+ If the bet wins, the payoff is 
+\begin_inset Formula $\$35$
+\end_inset
+
+ and you get your money back.
+ If you lose the bet then you lose your 
+\begin_inset Formula $\$1$
+\end_inset
+
+.
+ What is the expected profit on a 1 dollar bet ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ The expexted profit is 
+\begin_inset Formula $\mathbb{E}X=35\cdot\left(\frac{1}{38}\right)-1\cdot\frac{37}{38}=-\$.0526$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose you bet 
+\begin_inset Formula $\$1$
+\end_inset
+
+ on the numbers 
+\begin_inset Formula $1-18$
+\end_inset
+
+ and random variable 
+\begin_inset Formula $X$
+\end_inset
+
+ represents the (monetary) outcome (the money you win or lose).
+ If the bet wins, the payoff is 
+\begin_inset Formula $\$1$
+\end_inset
+
+ and you get your money back.
+ If you lose the bet then you lose your 
+\begin_inset Formula $\$1$
+\end_inset
+
+.
+ What is the expected profit on a 1 dollar bet ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ If you will then your profit will be 
+\begin_inset Formula $\$1$
+\end_inset
+
+.
+ If you lose then you lose your 
+\begin_inset Formula $\$1$
+\end_inset
+
+ bet.
+ The expexted profit is 
+\begin_inset Formula $\mathbb{E}X=1\cdot\left(\frac{18}{38}\right)-1\cdot\frac{20}{38}=-\$.0526$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+An insurance company finds that Mark has a 8% chance of getting into a car
+ accident in the next year.
+ If Mark has any kind of accident then the company guarantees to pay him
+ 
+\begin_inset Formula $\$10,000$
+\end_inset
+
+.
+ The company has decided to charge Mark a 
+\begin_inset Formula $\$200$
+\end_inset
+
+ premium for this one year insurance policy.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be the amount profit or loss from this insurance policy in the next year
+ for the insurance company.
+ Find 
+\begin_inset Formula $\mathbb{E}X$
+\end_inset
+
+, the expected return for the Insurance company? Should the insurance company
+ charge more or less on it's premium? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ If Mark has no accident then the company makes a profit of 
+\begin_inset Formula $200$
+\end_inset
+
+ dollars.
+ If Mark has an accident they have to pay him 
+\begin_inset Formula $10,000$
+\end_inset
+
+ dollars, but regardless they received 200 dollars from him as an yearly
+ premium.
+ We have 
+\begin_inset Formula 
+\[
+\mathbb{E}X=\left(200-10,000\right)\cdot\left(.08\right)+200\cdot\left(.92\right)=-600.
+\]
+
+\end_inset
+
+On average the company will lose 
+\begin_inset Formula $\$600$
+\end_inset
+
+ dollars.
+ Thus the company should charge more.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What amount should the insurance company charge Mark in order to guarantee
+ an expected return of 
+\begin_inset Formula $\$100$
+\end_inset
+
+? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+Let 
+\begin_inset Formula $P$
+\end_inset
+
+ be the premium.
+ Then in order to guarantee an expected return of 
+\begin_inset Formula $100$
+\end_inset
+
+ then 
+\begin_inset Formula 
+\[
+100=\mathbb{E}X=(P-10,000)\cdot\left(.08\right)+P\cdot\left(.92\right)
+\]
+
+\end_inset
+
+and solving for 
+\begin_inset Formula $P$
+\end_inset
+
+ we get 
+\begin_inset Formula $P=\$900$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+A random variable 
+\begin_inset Formula $X$
+\end_inset
+
+ has the following probability mass function: 
+\begin_inset Formula $p(0)=\frac{1}{3}$
+\end_inset
+
+, 
+\begin_inset Formula $p(1)=\frac{1}{6}$
+\end_inset
+
+ , 
+\begin_inset Formula $p(2)=\frac{1}{4}$
+\end_inset
+
+, 
+\begin_inset Formula $p(3)=\frac{1}{4}$
+\end_inset
+
+ .
+ Find its expected value, variance, and standard deviation.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Lets apply the formulas 
+\begin_inset Formula 
+\[
+\mathbb{E}X=0\cdot\frac{1}{3}+1\cdot\frac{1}{6}+2\cdot\frac{1}{4}+3\cdot\frac{1}{4}=\frac{34}{24}.
+\]
+
+\end_inset
+
+Now to calculate variance we have 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mbox{Var}(X) & = & \mathbb{E}\left[X^{2}\right]-\left(\mathbb{E}X\right)^{2}\\
+ & = & \left(0^{2}\cdot\frac{1}{3}+1^{1}\frac{1}{6}+2^{2}\cdot\frac{1}{4}+3^{2}\cdot\frac{1}{4}\right)-\left(\frac{34}{24}\right)^{2}\\
+ & = & \frac{82}{24}-\frac{34^{2}}{24^{2}}\\
+ & = & \frac{812}{24^{2}}.
+\end{eqnarray*}
+
+\end_inset
+
+Taking the square root gives us 
+\begin_inset Formula 
+\[
+\mbox{SD}(X)=\frac{2\sqrt{203}}{24}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose 
+\begin_inset Formula $X$
+\end_inset
+
+ is a random variable such that 
+\begin_inset Formula $\mathbb{E}\left[X\right]=50$
+\end_inset
+
+ and 
+\begin_inset Formula $\mbox{Var}(X)=12$
+\end_inset
+
+.
+ Calculate the following quantities.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\mathbb{E}\left[X^{2}\right]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Since 
+\begin_inset Formula $\mbox{Var}(X)=\mathbb{E}\left[X^{2}\right]-\left(\mathbb{E}X\right)^{2}=12$
+\end_inset
+
+ then 
+\begin_inset Formula 
+\[
+\mathbb{E}\left[X^{2}\right]=\mbox{Var}(X)+\left(\mathbb{E}X\right)^{2}=12+50^{2}=2512.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\mathbb{E}\left[3X+2\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula 
+\[
+\mathbb{E}\left[3X+2\right]=3\mathbb{E}\left[X\right]+\mathbb{E}\left[2\right]=3\cdot50+2=152.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\mathbb{E}\left[\left(X+2\right)^{2}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula 
+\[
+\mathbb{E}\left[\left(X+2\right)^{2}\right]=\mathbb{E}\left[X^{2}\right]+4\mathbb{E}\left[X\right]+4=2512+4\cdot50+4=2716.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\mbox{Var}\left[-X\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula 
+\[
+\mbox{Var}\left[-X\right]=\left(-1\right)^{2}\mbox{Var}(X)=12
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $SD\left(2X\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula 
+\[
+SD\left(2X\right)=\sqrt{\mbox{Var}(2X)}=\sqrt{2^{2}\mbox{Var}(X)}=\sqrt{48}=2\sqrt{12}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Does there exists a random variable 
+\begin_inset Formula $X$
+\end_inset
+
+ such that 
+\begin_inset Formula $\mathbb{E}\left[X\right]=4$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbb{E}\left[X^{2}\right]=10$
+\end_inset
+
+? Why or why not ? (Hint: Look at its variance)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Using the hint let's compute the variance of this random variable which
+ would be 
+\begin_inset Formula $\mbox{Var}(X)=\mathbb{E}\left[X^{2}\right]-\left(\mathbb{E}X\right)^{2}=10-4^{2}=-6$
+\end_inset
+
+.
+ But we know a random variable cannot have a negative variance.
+ Thus no such random variable exists.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Some Discrete Distributions
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+A UConn student claims that she can tell Dairy Bar ice cream from Friendly's
+ ice cream.
+ As a test, she is given ten samples of ice cream (each sample is either
+ from the Dairy Bar or friendly's) and asked to identify each one.
+ She is right eight times.
+ What is the probability that she would be right exactly eight times if
+ she guessed randomly for each sample?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+This should be modeled using a binomial random variable 
+\begin_inset Formula $X$
+\end_inset
+
+, since there is a sequence of trials with the same probability of success
+ in each one.
+ If she guesses randomly for each sample, the probability that she will
+ be right each time is 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+.
+ Therefore,
+\begin_inset Formula 
+\[
+\mathbb{P}\left(X=8\right)=\left(\begin{array}{c}
+10\\
+8
+\end{array}\right)\left(\frac{1}{2}\right)^{8}\left(\frac{1}{2}\right)^{2}=\frac{45}{2^{10}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A Pharmaceutical company conducted a study on a new drug that is supposed
+ to treat patients suffering from a certain disease.
+ The study concluded that the drug did not help 25% of those who participated
+ in the study.
+ What is the probability that of 6 randomly selected patients, 4 will recover?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\left(\begin{array}{c}
+6\\
+4
+\end{array}\right)\left(.75\right)^{4}\left(.25\right)^{2}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+20% of all students are left-handed.
+ A class of size 20 meets in a room with 18 right-handed desks and 5 left-handed
+ desks.
+ What is the probability that every student will have a suitable desk?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+For each student to have the kind of desk he or she prefers, there must
+ be no more than 18 right-handed students and no more than 5 left-handed
+ students, so the number of left-handed students must be between 2 and 5
+ (inclusive).
+ This means that we want the probability that there will be 2, 3, 4, or
+ 5 left-handed students.
+ We use the binomial distribution and get
+\begin_inset Formula 
+\[
+\sum_{i=2}^{5}\left(\begin{array}{c}
+20\\
+i
+\end{array}\right)\left(\frac{1}{5}\right)^{i}\left(\frac{4}{5}\right)^{20-i}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A ball is drawn from an urn containing 4 blue and 5 red balls.
+ After the ball is drawn, it is replaced and another ball is drawn.
+ Suppose this process is done 
+\begin_inset Formula $7$
+\end_inset
+
+ times.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that exactly 2 red balls were drawn in the 7 draws?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\left(\begin{array}{c}
+7\\
+2
+\end{array}\right)\left(\frac{5}{9}\right)^{2}\left(\frac{4}{9}\right)^{5}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is the probability that at least 3 blue balls were drawn in the 7 draws?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\mathbb{P}\left(X\geq3\right)=1-\mathbb{P}\left(X\leq2\right)=1-\left(\begin{array}{c}
+7\\
+0
+\end{array}\right)\left(\frac{4}{9}\right)^{0}\left(\frac{5}{9}\right)^{7}-\left(\begin{array}{c}
+7\\
+1
+\end{array}\right)\left(\frac{4}{9}\right)^{1}\left(\frac{5}{9}\right)^{6}-\left(\begin{array}{c}
+7\\
+2
+\end{array}\right)\left(\frac{4}{9}\right)^{2}\left(\frac{5}{9}\right)^{5}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+The expected number of typos on a page of the new Harry Potter book is .2.
+ What is the probability that the next page you read contains
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+0 typos ?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $e^{-.2}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+2 or more typos?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $1-e^{-.2}-.2e^{-.2}=1-1.2e^{-.2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Explain what assumptions you used.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Since each word has a small probability of being a typo, the number of
+ typos should be approximately be Poisson distributed.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+The monthly average number of car crashes in Storrs, CT is 3.5.
+ What is the probability that there will be
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+at least 2 accidents in the next month?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $1-e^{-3.5}-3.5e^{-3.5}=1-4.5e^{-3.5}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+at most 1 accident in the next month?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $4.5e^{-3.5}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Explain what assumptions you used.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Since each accident has a small probability it seems reasonable to suppose
+ that the number of car accidents is approximately Poisson distributed.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Suppose that the average number of burglaries in New York City in a week
+ is 2.2.
+ Approximate the probability that there will be
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+no burglaries in the next week;
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $e^{-2.2}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+at least 2 burglaries in the next week.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $1-e^{-2.2}-2.2e^{-2.2}=1-3.2e^{-2.2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+The number of accidents per working week in a particular shipyard is Poisson
+ distributed with mean 
+\begin_inset Formula $0.5$
+\end_inset
+
+.
+ Find the probability that: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+In a particular week there will be at least 2 accidents.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We have 
+\begin_inset Formula $\mathbb{P}\left(X\geq2\right)=1-\mathbb{P}\left(X\leq1\right)=1-e^{.5}\frac{(.5)^{0}}{0!}-e^{.5}\frac{(.5)^{1}}{1!}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+In a particular two week period there will be exactly 5 accidents.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ In two weeks the average number of accidents will be 
+\begin_inset Formula $\lambda=.5+.5=1$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $\mathbb{P}\left(X=5\right)=e^{-1}\frac{1^{5}}{5!}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+In a particular month (i.e.
+ 4 week period) there will be exactly 2 accidents.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ In a 4 week period the average number of accidents will be 
+\begin_inset Formula $\lambda=4\cdot(.5)=2$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $\mathbb{P}\left(X=2\right)=e^{-2}\frac{2^{2}}{2!}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Jennifer is baking cookies.
+ She mixes 400 raisins and 600 chocolate chips into her cookie dough and
+ ends up with 500 cookies.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the probability that a randomly picked cookie will have three raisins
+ in it.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ This calls for a Poisson random variable 
+\begin_inset Formula $R$
+\end_inset
+
+.
+ The average number of raisins per cookie is 
+\begin_inset Formula $.8$
+\end_inset
+
+, so we take this as our 
+\begin_inset Formula $\lambda$
+\end_inset
+
+ .
+ We are asking for 
+\begin_inset Formula $\mathbb{P}(R=3)$
+\end_inset
+
+, which is 
+\begin_inset Formula $e^{-.8}\frac{\left(.8\right)\&3}{3!}\approx.0383$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Find the probability that a randomly picked cookie will have at least one
+ chocolate chip in it.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ This calls for a Poisson random variable 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ The average number of chocolate chips per cookie is 
+\begin_inset Formula $1.2$
+\end_inset
+
+, so we take this as our 
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
+ We are asking for 
+\begin_inset Formula $\mathbb{P}\left(C\geq1\right)$
+\end_inset
+
+, which is 
+\begin_inset Formula $1-\mathbb{P}\left(C=0\right)=1-e^{-1.2}\frac{(1.2)^{0}}{0!}\approx.6988$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Find the probability that a randomly picked cookie will have no more than
+ two bits in it (a bit is either a raisin or a chocolate chip).
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ This calls for a Poisson random variable 
+\begin_inset Formula $B$
+\end_inset
+
+.
+ The average number of bits per cookie is 
+\begin_inset Formula $.8+1.2=2$
+\end_inset
+
+, so we take this as our 
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
+ We are asking for 
+\begin_inset Formula $\mathbb{P}\left(B\leq2\right)$
+\end_inset
+
+, which is 
+\begin_inset Formula $\mathbb{P}\left(B=0\right)+\mathbb{P}\left(B=1\right)+\mathbb{P}\left(B=2\right)=e^{-2}\frac{2^{0}}{0!}+e^{-2}\frac{2^{1}}{1!}+e^{-2}\frac{2^{2}}{2!}\approx.6767$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+A roulette wheel has 38 numbers on it: the numbers 0 through 36 and a 00.
+ Suppose that Lauren always bets that the outcome will be a number between
+ 1 and 18 (including 1 and 16).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that Lauren will lose her first 6 bets.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\left(1-\frac{18}{38}\right)^{6}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is the probability that Lauren will first win on her sixth bet?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\left(1-\frac{18}{38}\right)^{5}\frac{18}{38}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Continuous distributions
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be a random variable with probability density function 
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+cx\left(5-x\right) & 0\leq x\leq5\\
+0 & \mbox{otherwise}
+\end{cases}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the value of 
+\begin_inset Formula $c$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We must have that 
+\begin_inset Formula $\int_{-\infty}^{\infty}f(x)dx=1$
+\end_inset
+
+, thus 
+\begin_inset Formula 
+\[
+1=\int_{0}^{5}cx(5-x)dx=\left[c\left(\frac{5x^{2}}{2}-\frac{x^{3}}{3}\right)\right]_{0}^{5}
+\]
+
+\end_inset
+
+and so we must have that 
+\begin_inset Formula $c=6/125$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is the cumulative distribution function of 
+\begin_inset Formula $X$
+\end_inset
+
+? That is, find 
+\begin_inset Formula $F_{X}(x)=\mathbb{P}\left(X\leq x\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We have that 
+\begin_inset Formula 
+\begin{eqnarray*}
+F_{X}(x) & = & \mathbb{P}\left(X\leq x\right)=\int_{-\infty}^{x}f(y)dy\\
+ & = & \int_{0}^{x}\frac{6}{125}y\left(5-y\right)dx=\frac{6}{125}\left[\left(\frac{5y^{2}}{2}-\frac{y^{3}}{3}\right)\right]_{0}^{x}\\
+ & = & \frac{6}{125}\left(\frac{5x^{2}}{2}-\frac{x^{3}}{3}\right).
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Use your answer in part (b) to find 
+\begin_inset Formula $\mathbb{P}\left(2\leq X\leq3\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+\bar under
+ 
+\bar default
+We have 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(2\leq X\leq3\right) & = & \mathbb{P}\left(X\leq3\right)-\mathbb{P}\left(X<2\right)\\
+ & = & \frac{6}{125}\left(\frac{5\cdot3{}^{2}}{2}-\frac{3^{3}}{3}\right)-\frac{6}{125}\left(\frac{5\cdot2^{2}}{2}-\frac{2^{3}}{3}\right)\\
+ & = & .296.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is 
+\begin_inset Formula $\mathbb{E}\left[X\right]$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We have
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{E}\left[X\right] & = & \int_{-\infty}^{\infty}xf_{X}(x)dx=\int_{0}^{5}x\cdot\frac{6}{125}x(5-x)dx\\
+ & = & 2.5.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is 
+\begin_inset Formula $\mbox{Var}(X)$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We need to first compute 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{E}\left[X^{2}\right] & = & \int_{-\infty}^{\infty}x^{2}f_{X}(x)dx=\int_{0}^{5}x^{2}\cdot\frac{6}{125}x(5-x)dx\\
+ & = & 7.5.
+\end{eqnarray*}
+
+\end_inset
+
+Then 
+\begin_inset Formula 
+\[
+\mbox{Var}(X)=\mathbb{E}\left[X^{2}\right]-\left(\mathbb{E}\left[X\right]\right)^{2}=7.5-\left(2.5\right)^{2}=1.25.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+UConn students have designed the new u-phone.
+ They have determined that the lifetime of a U-Phone is given by the random
+ variable 
+\begin_inset Formula $X$
+\end_inset
+
+ (measured in hours), with probability density function 
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+\frac{10}{x^{2}} & x\geq10\\
+0 & x\leq10
+\end{cases}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the probability that the u-phone will last more than 
+\begin_inset Formula $20$
+\end_inset
+
+ hours?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We have
+\begin_inset Formula 
+\[
+\int_{20}^{\infty}\frac{10}{x^{2}}dx=\frac{1}{2}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is the cumulative distribution function of 
+\begin_inset Formula $X$
+\end_inset
+
+? That is, find 
+\begin_inset Formula $F_{X}(x)=\mathbb{P}\left(X\leq x\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We have
+\begin_inset Formula 
+\[
+F(x)=\mathbb{P}(X\leq x)=\int_{10}^{x}\frac{10}{y^{2}}dy=1-\frac{10}{x}
+\]
+
+\end_inset
+
+for 
+\begin_inset Formula $x>10$
+\end_inset
+
+, and 
+\begin_inset Formula $F(x)=0$
+\end_inset
+
+ for 
+\begin_inset Formula $x<10$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Use part (b) to help you find 
+\begin_inset Formula $\mathbb{P}\left(X\geq35\right)$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We have 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X\geq35\right) & = & 1-\mathbb{P}\left(X<35\right)=1-F_{X}(35)\\
+ & = & 1-\left(1-\frac{10}{35}\right)=\frac{10}{35}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Suppose the random variable 
+\begin_inset Formula $X$
+\end_inset
+
+ has a density function 
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+\frac{2}{x^{2}} & x>2,\\
+0 & x\leq2.
+\end{cases}
+\]
+
+\end_inset
+
+Compute 
+\begin_inset Formula $\mathbb{E}\left[X\right]$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+Since 
+\begin_inset Formula $\mathbb{E}\left[X\right]=\int_{-\infty}^{\infty}xf_{X}(x)dx$
+\end_inset
+
+ then 
+\begin_inset Formula 
+\[
+\mathbb{E}\left[X\right]=\int_{2}^{\infty}\frac{2}{x}dx=\infty.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+An insurance company insures a large number of homes.
+ The insured value, 
+\begin_inset Formula $X$
+\end_inset
+
+, of a randomly selected home is assumed to follow a distribution with density
+ function
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+\frac{3}{x^{4}} & x>1,\\
+0 & ,\mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+Given that a randomly selected home is insured for at least 
+\begin_inset Formula $1.5$
+\end_inset
+
+, calculate the probability that it is insured for less than 
+\begin_inset Formula $2$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+Note that the distribution function is given by 
+\begin_inset Formula 
+\[
+F(x)=\mathbb{P}(X\leq x)=\int_{1}^{x}3y^{-4}dy=1-\frac{1}{x^{3}}.
+\]
+
+\end_inset
+
+Then 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X<2\mid X\geq1.5\right) & = & \frac{\mathbb{P}\left(\left(X<2\right)\mbox{ and}\left(X\geq1.5\right)\right)}{\mathbb{P}\left(X\geq1.5\right)}=\frac{\mathbb{P}\left(X<2\right)-\mathbb{P}\left(X<1.5\right)}{\mathbb{P}\left(X\geq1.5\right)}\\
+ & = & \frac{F\left(2\right)-F(1.5)}{1-F(1.5)}=\frac{\left(1-2^{-3}\right)-\left(1-1.5^{-3}\right)}{1-\left(1-1.5^{-3}\right)}\\
+ & = & \frac{37}{64}=.578.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The density function of 
+\begin_inset Formula $X$
+\end_inset
+
+ is given by 
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+a+bx^{2} & 0\leq x\leq1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+If 
+\begin_inset Formula $\mathbb{E}\left[X\right]=\frac{7}{10}$
+\end_inset
+
+, find the values of 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We need to use the fact that 
+\begin_inset Formula $\int_{-\infty}^{\infty}f(x)dx=1$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbb{E}\left[X\right]=\frac{7}{10}$
+\end_inset
+
+.
+ The first one gives us, 
+\begin_inset Formula 
+\[
+1=\int_{0}^{1}\left(a+bx^{2}\right)dx=a+\frac{b}{3}
+\]
+
+\end_inset
+
+and the second one give us 
+\begin_inset Formula 
+\[
+\frac{7}{10}=\int_{0}^{1}x\left(a+bx^{2}\right)dx=\frac{a}{2}+\frac{b}{4}.
+\]
+
+\end_inset
+
+Solving these equations gives us 
+\begin_inset Formula 
+\[
+a=\frac{1}{5},\mbox{ and }b=\frac{12}{5}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be a random variable with density function 
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+\frac{1}{a-1} & 1<x<a\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+Suppose that 
+\begin_inset Formula $\mathbb{E}\left[X\right]=6\mbox{Var}(X)$
+\end_inset
+
+.
+ Find the value of 
+\begin_inset Formula $a$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Note that 
+\begin_inset Formula 
+\[
+\mathbb{E}X=\int_{1}^{a}\frac{x}{a-1}dx=\frac{1}{2}a+\frac{1}{2}.
+\]
+
+\end_inset
+
+Also 
+\begin_inset Formula 
+\[
+\mbox{Var}(X)=\mathbb{E}X^{2}-\left(\mathbb{E}X\right)^{2}
+\]
+
+\end_inset
+
+then we need 
+\begin_inset Formula 
+\[
+\mathbb{E}X^{2}=\int_{1}^{a}\frac{x^{2}}{a-1}dx=\frac{1}{3}a^{2}+\frac{1}{3}a+\frac{1}{3}.
+\]
+
+\end_inset
+
+Then 
+\begin_inset Formula 
+\begin{eqnarray*}
+Var(X) & = & \left(\frac{1}{3}a^{2}+\frac{1}{3}a+\frac{1}{3}\right)-\left(\frac{1}{2}a+\frac{1}{2}\right)^{2}\\
+ & = & \frac{1}{12}a^{2}-\frac{1}{6}a+\frac{1}{12}.
+\end{eqnarray*}
+
+\end_inset
+
+Then using 
+\begin_inset Formula $\mathbb{E}\left[X\right]=6\mbox{Var}(X)$
+\end_inset
+
+ we solve and get 
+\begin_inset Formula $\frac{1}{2}a^{2}-\frac{3}{2}a=0$
+\end_inset
+
+ which we get 
+\begin_inset Formula $a=3$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose you order a pizza from your favorite pizzaria at 7:00 pm, knowing
+ that the time it takes for your pizza to be ready is uniformly distributed
+ between 7:00 pm and 7:30 pm.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that you will have to wait longer than 
+\begin_inset Formula $10$
+\end_inset
+
+ minutes for your pizza?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Note that 
+\begin_inset Formula $X$
+\end_inset
+
+ is uniformly distributed over 
+\begin_inset Formula $(0,30)$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula 
+\[
+\mathbb{P}(X>10)=\frac{2}{3}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+If at 7:15pm, the pizza has not yet arrived, what is the probability that
+ you will have to wait at least an additional 
+\begin_inset Formula $10$
+\end_inset
+
+ minutes?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Note that 
+\begin_inset Formula $X$
+\end_inset
+
+ is uniformly distributed over 
+\begin_inset Formula $(0,30)$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula 
+\[
+\mathbb{P}(X>25\mid X>15)=\frac{\mathbb{P}\left(X>25\right)}{\mathbb{P}(X>15)}=\frac{5/30}{15/30}=1/3.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Normal Distributions
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose 
+\begin_inset Formula $X$
+\end_inset
+
+ is a normally distributed random variable with 
+\begin_inset Formula $\mu=10$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma^{2}=36$
+\end_inset
+
+.
+ Find
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\mathbb{P}\left(X>5\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X>5\right) & = & \mathbb{P}\left(Z>\frac{5-10}{6}\right)=\mathbb{P}\left(Z>-.8333\right)\\
+ & = & 1-\mathbb{P}\left(Z\leq-.8333\right)=1-\Phi\left(-.8333\right)\\
+ & = & 1-\left(1-\Phi\left(.8333\right)\right)=.7977
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\mathbb{P}\left(4<X<16\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\begin_inset Formula $2\Phi(1)-1=.6827$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\mathbb{P}\left(X<8\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\begin_inset Formula $1-\Phi(.3333)=.3695$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+The height of maple trees at age 10 are estimated to be normally distributed
+ with mean 
+\begin_inset Formula $200$
+\end_inset
+
+ cm and variance 
+\begin_inset Formula $64$
+\end_inset
+
+ cm.
+ What is the probability a maple tree at age 
+\begin_inset Formula $10$
+\end_inset
+
+ grows more than 
+\begin_inset Formula $210$
+\end_inset
+
+cm? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+We have 
+\begin_inset Formula $\mu=200$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma=\sqrt{64}=8$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X>210\right) & = & \mathbb{P}\left(Z>\frac{210-200}{8}\right)=\mathbb{P}\left(Z>1.25\right)\\
+ & = & 1-\Phi(1.25)=.1056.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The peak temperature 
+\begin_inset Formula $T$
+\end_inset
+
+, in degrees Fahrenheit, on a July day in Antarctica is a Normal random
+ variable with a variance of 
+\begin_inset Formula $225$
+\end_inset
+
+.
+ With probability 
+\begin_inset Formula $.5$
+\end_inset
+
+, the temperature 
+\begin_inset Formula $T$
+\end_inset
+
+ exceeds 
+\begin_inset Formula $10$
+\end_inset
+
+ degrees.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is 
+\begin_inset Formula $\mathbb{P}(T>32)$
+\end_inset
+
+, the probability the temperature is above freezing? 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We have 
+\begin_inset Formula $\sigma=\sqrt{225}=15$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $\mathbb{P}\left(X>10\right)=.5$
+\end_inset
+
+ then we must have that 
+\begin_inset Formula $\mu=10$
+\end_inset
+
+ since the pdf of the normal distribution is symmetric.
+ Then 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}(T>32) & = & \mathbb{P}\left(Z>\frac{32-10}{15}\right)\\
+ & = & 1-\Phi\left(1.47\right)=.0708.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is 
+\begin_inset Formula $\mathbb{P}\left(T<0\right)$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We have 
+\begin_inset Formula $\mathbb{P}(T<0)=\Phi\left(-.67\right)=1-\Phi(.67)=.2514$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+The salaries of UConn professors is approximately normally distributed.
+ Suppose you know that 33 percent of professors earn less than $80,000.
+ Also 33 percent earn more than $120,000.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that a UConn professor makes more than $100,000?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ First we need to figure out what 
+\begin_inset Formula $\mu$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma$
+\end_inset
+
+are.
+ Note that 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X\leq80,000\right)=.33 & \iff & \mathbb{P}\left(Z<\frac{80,000-\mu}{\sigma}\right)=.33\\
+ & \iff & \Phi\left(\frac{80,000-\mu}{\sigma}\right)=.33
+\end{eqnarray*}
+
+\end_inset
+
+and since 
+\begin_inset Formula $\Phi\left(.44\right)=.67$
+\end_inset
+
+ then 
+\begin_inset Formula $\Phi\left(-.44\right)=.33$
+\end_inset
+
+.
+ Then we must have 
+\begin_inset Formula 
+\[
+\frac{80,000-\mu}{\sigma}=-.44.
+\]
+
+\end_inset
+
+Similarly, since 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X>120,000\right)=.33 & \iff & 1-\mathbb{P}\left(X\leq120,000\right)=.33\\
+ & \iff & 1-\Phi\left(\frac{120,000-\mu}{\sigma}\right)=.33\\
+ & \iff & \Phi\left(\frac{120,000-\mu}{\sigma}\right)=.67
+\end{eqnarray*}
+
+\end_inset
+
+Now again since 
+\begin_inset Formula $\Phi\left(.44\right)=.67$
+\end_inset
+
+ then 
+\begin_inset Formula 
+\[
+\frac{120,000-\mu}{\sigma}=.44.
+\]
+
+\end_inset
+
+Solving the equations 
+\begin_inset Formula 
+\[
+\frac{80,000-\mu}{\sigma}=-.44\mbox{ and }\frac{120,000-\mu}{\sigma}=.44,
+\]
+
+\end_inset
+
+simultaneously we have that 
+\begin_inset Formula 
+\[
+\mu=100,000\mbox{ and }\sigma\approx45,454.5.
+\]
+
+\end_inset
+
+Then 
+\begin_inset Formula 
+\[
+\mbox{\mathbb{P}}\left(X>100,000\right)=.5.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is the probability that a UConn professor makes between $70,000 and
+ $80,000?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We have 
+\begin_inset Formula 
+\[
+\mathbb{P}\left(70,000<X<80,000\right)\approx.0753.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Suppose 
+\begin_inset Formula $X$
+\end_inset
+
+ is a normal random variable with mean 
+\begin_inset Formula $5$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $\mathbb{P}\left(X>0\right)=.8888$
+\end_inset
+
+, approximately what is 
+\begin_inset Formula $Var\left(X\right)$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Since 
+\begin_inset Formula $\mathbb{P}\left(X>0\right)=.8888$
+\end_inset
+
+, then 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X>0\right)=.8888 & \iff & \mathbb{P}\left(Z>\frac{0-5}{\sigma}\right)=.8888\\
+ & \iff & 1-\mathbb{P}\left(Z\leq-\frac{5}{\sigma}\right)=.8888\\
+ & \iff & 1-\Phi\left(-\frac{5}{\sigma}\right)=.8888\\
+ & \iff & 1-\left(1-\Phi\left(\frac{5}{\sigma}\right)\right)=.8888\\
+ & \iff & \Phi\left(\frac{5}{\sigma}\right)=.8888.
+\end{eqnarray*}
+
+\end_inset
+
+Using the table we see that 
+\begin_inset Formula $\Phi\left(1.22\right)=.8888$
+\end_inset
+
+, thus we must have that 
+\begin_inset Formula 
+\[
+\frac{5}{\sigma}=1.22
+\]
+
+\end_inset
+
+and solving this gets us 
+\begin_inset Formula $\sigma=4.098$
+\end_inset
+
+, hence 
+\begin_inset Formula $\sigma^{2}\approx16.8$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The shoe size of a UConn basketball player is normally distributed with
+ mean 12 inches and variance 4 inches.
+ Ten percent of all UConn basketball players have a shoe size greater than
+ 
+\begin_inset Formula $c$
+\end_inset
+
+ inches.
+ Find the value of 
+\begin_inset Formula $c$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+Note that 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X>c\right)=.10 & \iff & \mathbb{P}\left(Z>\frac{c-12}{2}\right)=.10\\
+ & \iff & 1-\mathbb{P}\left(Z\leq\frac{c-12}{2}\right)=.10\\
+ & \iff & \mathbb{P}\left(Z\leq\frac{c-12}{2}\right)=.9\\
+ & \iff & \Phi\left(\frac{c-12}{2}\right)=.9
+\end{eqnarray*}
+
+\end_inset
+
+Using the table we see that 
+\begin_inset Formula $\Phi\left(1.28\right)=.90$
+\end_inset
+
+, thus we must have that 
+\begin_inset Formula 
+\[
+\frac{c-12}{2}=1.28
+\]
+
+\end_inset
+
+and solving this gets us 
+\begin_inset Formula $c=14.56$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Normal Approximation to the binomial
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose that we roll 2 dice 180 times.
+ Let 
+\begin_inset Formula $E$
+\end_inset
+
+ be the event that we roll two fives no more than once.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the exact probability of 
+\begin_inset Formula $E$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ The probability of rolling two ves in a particular roll is 
+\begin_inset Formula $\frac{1}{36}$
+\end_inset
+
+ , so the probability that we roll two fives no more than once in 180 rolls
+ is
+\begin_inset Formula 
+\[
+p=\left(\begin{array}{c}
+180\\
+0
+\end{array}\right)\left(\frac{35}{36}\right)^{180}+\left(\begin{array}{c}
+180\\
+1
+\end{array}\right)\left(\frac{1}{36}\right)\left(\frac{35}{36}\right)^{179}\approx.0386.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Approximate 
+\begin_inset Formula $\mathbb{P}(E)$
+\end_inset
+
+ using the normal distribution.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We want the number of successes to be 0 or 1, so we want 
+\begin_inset Formula $\mathbb{P}\left(0\leq S_{180}\leq1\right)$
+\end_inset
+
+.
+ Since the binomial is integer-valued, we apply the continuity correction
+ and calculate 
+\begin_inset Formula $\mathbb{P}\left(-.5\leq S_{180}\leq1.5\right)$
+\end_inset
+
+instead.
+ We calculate that the expected value is 
+\begin_inset Formula $\mu=180\cdot p=5$
+\end_inset
+
+ and the standard deviation 
+\begin_inset Formula $\sigma=\sqrt{180p(1-p)}\approx2.205$
+\end_inset
+
+.
+ Now, as always, we convert this question to a question about the standard
+ normal random variable 
+\begin_inset Formula $Z$
+\end_inset
+
+, 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(-.5\leq S_{180}\leq1.5\right) & = & \mathbb{P}\left(\frac{.5-5}{2.205}\leq Z\leq\frac{1.5-5}{2.205}\right)=\mathbb{P}\left(-2.49<Z<-1.59\right)\\
+ & = & \left(1-\Phi\left(1.59\right)\right)-\left(1-\Phi\left(2.49\right)\right)\\
+ & = & \left(1-.9441\right)-\left(1-.9936\right)=.0495.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Approximate 
+\begin_inset Formula $\mathbb{P}(E)$
+\end_inset
+
+ using the Poisson distribution.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+We use 
+\begin_inset Formula $\lambda=np=5$
+\end_inset
+
+ (note that we calculated this already in (b)!).
+ Now we see that
+\begin_inset Formula 
+\[
+\mathbb{P}(E)\approx e^{-5}\frac{5^{0}}{0!}+e^{-5}\frac{5^{1}}{1!}\approx.0404.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Some continuous distributions
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose that the time required to replace a car's windshield can be represented
+ by an exponentially distributed random variable with parameter 
+\begin_inset Formula $\lambda=\frac{1}{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that it will take at least 3 hours to replace a
+ windshield?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+We have 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X>3\right) & = & 1-\mathbb{P}\left(0<X<3\right)\\
+ & = & 1-\int_{0}^{3}\frac{1}{2}e^{-\frac{x}{2}}dx\\
+ & = & e^{-\frac{3}{2}}\approx.2231.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is the probability that it will take at least 5 hours to replace a
+ windshield given that it hasn't been finished after 2 hours?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ There are two ways to do this.
+ The longer one is to calculate 
+\begin_inset Formula $\mathbb{P}(X>5\mid X>2)$
+\end_inset
+
+.
+ The shorter one is to remember that the exponential distribution is memoryless
+ and to observe that 
+\begin_inset Formula $\mathbb{P}(X>t+3\mid X>t)=P(X>3)$
+\end_inset
+
+, so the answer is the same as the answer to 
+\begin_inset Formula $(a)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+The number of years a u-phone functions is exponentially distributed with
+ parameter 
+\begin_inset Formula $\lambda=\frac{1}{8}$
+\end_inset
+
+.
+ If Pat buys a used u-phone, what is the probability that it will be working
+ after an additional 8 years?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\begin_inset Formula $e^{-1}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that the time (in minutes) required to check out a book at the library
+ can be represented by an exponentially distributed random variable with
+ parameter 
+\begin_inset Formula $\lambda=\frac{2}{11}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that it will take at least 5 minutes to check out
+ a book?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+Recall a formula 
+\begin_inset Formula $\mathbb{P}\left(X>a\right)=e^{-\lambda a}$
+\end_inset
+
+, then 
+\begin_inset Formula 
+\[
+\mathbb{P}\left(X>5\right)=e^{-\frac{10}{11}}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What is the probability that it will take at least 11 minutes to check out
+ a book given that you've already waited for 6 minutes?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+We use the memoryless property
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X>11\mid X>6\right) & = & \mathbb{P}\left(X>6+5\mid X>6\right)\\
+ & = & \mathbb{P}\left(X>5\right)=e^{-\frac{10}{11}}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be an exponential random variable with mean 
+\begin_inset Formula $\mathbb{E}\left[X\right]=1$
+\end_inset
+
+.
+ Define a new random variable 
+\begin_inset Formula $Y=e^{X}$
+\end_inset
+
+.
+ Find the p.d.f.
+ of 
+\begin_inset Formula $Y$
+\end_inset
+
+, 
+\begin_inset Formula $f_{Y}(y)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Since 
+\begin_inset Formula $\mathbb{E}\left[X\right]=1$
+\end_inset
+
+ then we know that 
+\begin_inset Formula $\mbox{\lambda=1}.$
+\end_inset
+
+ Then it's pdf and cdf is 
+\begin_inset Formula 
+\begin{eqnarray*}
+f_{X}(x) & = & e^{-x},x\geq0\\
+F_{X}(x) & = & 1-e^{-x},\,\,\, x\geq0.
+\end{eqnarray*}
+
+\end_inset
+
+By using the given relation, 
+\begin_inset Formula 
+\[
+F_{y}(y)=\mathbb{P}\left(Y\leq y\right)=\mathbb{P}\left(e^{X}\leq y\right)=\mathbb{P}\left(X\leq\ln y\right)=F_{X}\left(\ln y\right)
+\]
+
+\end_inset
+
+and so 
+\begin_inset Formula 
+\[
+F_{Y}(y)=1-e^{-\ln y}=1-\frac{1}{y},\mbox{ when }\ln(y)\geq0,
+\]
+
+\end_inset
+
+taking derivatives we get 
+\begin_inset Formula 
+\[
+f_{Y}(y)=\frac{dF_{y}(y)}{dy}=\frac{1}{y^{2}},\mbox{ when }y\geq1.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that 
+\begin_inset Formula $X$
+\end_inset
+
+ has an exponential distribution with parameter 
+\begin_inset Formula $\lambda=1$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $c>0$
+\end_inset
+
+.
+ Show that 
+\begin_inset Formula $Y=\frac{X}{c}$
+\end_inset
+
+ is exponential with parameter 
+\begin_inset Formula $\lambda=c$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Since 
+\begin_inset Formula $X$
+\end_inset
+
+ is exponential with parameter 
+\begin_inset Formula $1$
+\end_inset
+
+, then it's pdf and cdf is 
+\begin_inset Formula 
+\begin{eqnarray*}
+f_{X}(x) & = & e^{-x},x\geq0\\
+F_{X}(x) & = & 1-e^{-x},\,\,\, x\geq0.
+\end{eqnarray*}
+
+\end_inset
+
+By using the given relation, 
+\begin_inset Formula 
+\[
+F_{y}(y)=\mathbb{P}\left(Y\leq y\right)=\mathbb{P}\left(\frac{X}{c}\leq y\right)=\mathbb{P}\left(X\leq cy\right)=F_{X}\left(cy\right)
+\]
+
+\end_inset
+
+and so 
+\begin_inset Formula 
+\[
+F_{Y}(y)=1-e^{-cy},\mbox{ when }cy\geq0,
+\]
+
+\end_inset
+
+taking derivatives we get 
+\begin_inset Formula 
+\[
+f_{Y}(y)=\frac{dF_{y}(y)}{dy}=ce^{-cy},\mbox{ when }y\geq0.
+\]
+
+\end_inset
+
+Note that this is the pdf of an exponential with parameter 
+\begin_inset Formula $\lambda=c$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be a uniform random variable over 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+.
+ Define a new random variable 
+\begin_inset Formula $Y=e^{X}$
+\end_inset
+
+.
+ Find the probability density function of 
+\begin_inset Formula $Y$
+\end_inset
+
+, 
+\begin_inset Formula $f_{Y}(y)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Since 
+\begin_inset Formula $X$
+\end_inset
+
+ is uniform over 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+, then it's pdf and cdf are 
+\begin_inset Formula 
+\begin{eqnarray*}
+f_{X}(x) & =1 & ,\,\,\,\,0\leq x<1\\
+F_{X}(x) & =x & ,\,\,\,\,0\leq x<1.
+\end{eqnarray*}
+
+\end_inset
+
+By using the given relation, 
+\begin_inset Formula 
+\[
+F_{y}(y)=\mathbb{P}\left(Y\leq y\right)=\mathbb{P}\left(e^{X}\leq y\right)=\mathbb{P}\left(X\leq\ln y\right)=F_{X}\left(\ln y\right)
+\]
+
+\end_inset
+
+and so 
+\begin_inset Formula 
+\[
+F_{Y}(y)=\ln y,\mbox{ when }0\leq\ln y<1.
+\]
+
+\end_inset
+
+taking derivatives we get 
+\begin_inset Formula 
+\[
+f_{Y}(y)=\frac{dF_{y}(y)}{dy}=\frac{1}{y},\mbox{ when }1<y<e^{1}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Multivariate distributions
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose that 2 balls are chosen without replacement from an urn consisting
+ of 5 white and 8 red balls.
+ Let 
+\begin_inset Formula $X$
+\end_inset
+
+ equal 
+\begin_inset Formula $1$
+\end_inset
+
+ if the first ball selected is white and zero otherwise.
+ Let 
+\begin_inset Formula $Y$
+\end_inset
+
+ equal 
+\begin_inset Formula $1$
+\end_inset
+
+ if the second ball selected is white and zero otherwise.
+ Find the probability mass function of 
+\begin_inset Formula $X,Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We have 
+\begin_inset Formula 
+\begin{eqnarray*}
+p(0,0) & = & \mathbb{P}\left(X=0,Y=0\right)=\mathbb{P}\left(RR\right)=\frac{8\cdot7}{13\cdot12}=\frac{14}{39},\\
+p(1.0) & = & \mathbb{P}\left(X=1,Y=0\right)=\mathbb{P}\left(WR\right)=\frac{5\cdot8}{13\cdot12}=\frac{10}{39},\\
+p(0,1) & = & \mathbb{P}\left(X=0,Y=1\right)=\mathbb{P}\left(RW\right)=\frac{8\cdot5}{13\cdot12}=\frac{10}{39},\\
+p(1,1) & = & \mathbb{P}\left(X=1,Y=1\right)=\mathbb{P}\left(WW\right)=\frac{5\cdot4}{13\cdot12}=\frac{5}{39}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose you roll two fair dice.
+ Find the probability mass function of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+, where 
+\begin_inset Formula $X$
+\end_inset
+
+ is the largest value obtained on any die, and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is the sum of the values.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ First we need to figure what values 
+\begin_inset Formula $X,Y$
+\end_inset
+
+ can attain.
+ Note that 
+\begin_inset Formula $X$
+\end_inset
+
+ can be any of 
+\begin_inset Formula $1,2,3,4,5,6$
+\end_inset
+
+, But 
+\begin_inset Formula $Y$
+\end_inset
+
+ is the sum, can only be as low as 
+\begin_inset Formula $2$
+\end_inset
+
+ and as high as 
+\begin_inset Formula $12$
+\end_inset
+
+.
+ First we make a table of possibilities for 
+\begin_inset Formula $(X,Y)$
+\end_inset
+
+ given the values of the die.
+ Recall 
+\begin_inset Formula $X$
+\end_inset
+
+ is the largest of the two, and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is the sum of them.
+ The possible outcomes are given by: 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="7">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1st Die
+\begin_inset Formula $\backslash$
+\end_inset
+
+2nd die
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(1,2\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(2,3\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(3,4\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(4,5\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(5,6\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(6,7\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(2,3\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(2,4\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(3,5\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(4,6\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(5,7\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(6,8\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(3,4\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(3,5\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(3,6\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(4,7\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(5,8\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(6,9\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(4,5\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(4,6\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(4,7\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(4,8\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(5,9\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(6,10\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(5,6\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(5,7\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(5,8\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(5,9\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(5,10\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(6,11\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(6,7\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(6,8\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(6,9\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(6,10\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(6,11\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(6,12\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Then we make a table of the pmf 
+\begin_inset Formula $p(x,y)$
+\end_inset
+
+.
+ 
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="12">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $X\backslash Y$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+12
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{2}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{36}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose the joint density function of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is 
+\begin_inset Formula $f(x,y)=\frac{1}{4}$
+\end_inset
+
+ for 
+\begin_inset Formula $0<x<2$
+\end_inset
+
+ and 
+\begin_inset Formula $0<y<2$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\mathbb{P}\left(\frac{1}{2}<X<1,\frac{2}{3}<Y<\frac{4}{3}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+We integrate the pdf over the bounds and get 
+\begin_inset Formula 
+\[
+\int_{\frac{1}{2}}^{1}\int_{\frac{2}{3}}^{\frac{4}{3}}\frac{1}{4}dydx=\frac{1}{4}\left(1-\frac{1}{2}\right)\left(\frac{4}{3}-\frac{2}{3}\right)=\frac{1}{12}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\mathbb{P}\left(XY<2\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+We need to find the region that is within 
+\begin_inset Formula $0<x,y<2$
+\end_inset
+
+ and 
+\begin_inset Formula $y<\frac{2}{x}$
+\end_inset
+
+.
+ (Draw a picture) We get two regions from this.
+ One with bounds 
+\begin_inset Formula $0<x<1,0<y<2$
+\end_inset
+
+ and the region 
+\begin_inset Formula $1<x<2,0<y<\frac{2}{x}$
+\end_inset
+
+.
+ Then
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(XY<2\right) & = & \int_{0}^{1}\int_{0}^{2}\frac{1}{4}dydx+\int_{1}^{2}\int_{0}^{\frac{2}{x}}\frac{1}{4}dydx\\
+ & = & \frac{1}{2}+\int_{1}^{2}\frac{1}{2x}dx\\
+ & = & \frac{1}{2}+\frac{\ln2}{2}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate the marginal distributions 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+ and 
+\begin_inset Formula $f_{Y}(y)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+Recall that 
+\begin_inset Formula 
+\[
+f_{X}(x)=\int_{-\infty}^{\infty}f(x,y)dy=\int_{0}^{2}\frac{1}{4}dy=\frac{1}{2}
+\]
+
+\end_inset
+
+for 
+\begin_inset Formula $0<x<2$
+\end_inset
+
+ and 
+\begin_inset Formula $0$
+\end_inset
+
+ otherwise.
+ By symmetry, 
+\begin_inset Formula $f_{Y}$
+\end_inset
+
+ is equal to the same thing.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+The joint probability density function of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is given by 
+\begin_inset Formula 
+\[
+f(x,y)=e^{-\left(x+y\right)},\,\,\,0\leq x<\infty,0\leq y<\infty.
+\]
+
+\end_inset
+
+Find 
+\begin_inset Formula $\mathbb{P}\left(X<Y\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Draw a picture of the region and note the bounds are 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X<Y\right) & = & \int_{0}^{\infty}\int_{0}^{y}e^{-\left(x+y\right)}dxdy=\int_{0}^{\infty}\left[-e^{-2y}+e^{-y}\right]dy\\
+ & = & \left[\frac{1}{2}e^{-2y}-e^{-y}\right]_{0}^{\infty}=0-\left(\frac{1}{2}-1\right)=\frac{1}{2}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ are independent random variables and that 
+\begin_inset Formula $X$
+\end_inset
+
+ is exponential with 
+\begin_inset Formula $\lambda=\frac{1}{4}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is uniform on 
+\begin_inset Formula $(2,5)$
+\end_inset
+
+.
+ Calculate the probability that 
+\begin_inset Formula $2X+Y<8$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We know that 
+\begin_inset Formula 
+\[
+f_{X}(x)=\begin{cases}
+\frac{1}{4}e^{-\frac{x}{4}} & \mbox{when }x\geq0\\
+0 & \mbox{otherwise}
+\end{cases}
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+f_{Y}(y)=\begin{cases}
+\frac{1}{3} & \mbox{when }2<y<5\\
+0 & \mbox{otherwise }
+\end{cases}
+\]
+
+\end_inset
+
+Since 
+\begin_inset Formula $X,Y$
+\end_inset
+
+ are independent then 
+\begin_inset Formula $f_{X,Y}=f_{X}f_{Y}$
+\end_inset
+
+, thus 
+\begin_inset Formula 
+\[
+f_{X,Y}(x,y)=\begin{cases}
+\frac{1}{12}e^{-\frac{x}{4}} & \mbox{when }x\geq0,2<y<5\\
+0 & \mbox{otherwise}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Draw the region 
+\begin_inset Formula $\left(2X+Y<8\right)$
+\end_inset
+
+, which correspond to 
+\begin_inset Formula $0\leq x$
+\end_inset
+
+, 
+\begin_inset Formula $0<y<5$
+\end_inset
+
+ and 
+\begin_inset Formula $y<8-2x$
+\end_inset
+
+.
+ Drawing a picture of the region, we get the corresponding bounds of 
+\begin_inset Formula $2<y<5$
+\end_inset
+
+ and 
+\begin_inset Formula $0<x<4-\frac{y}{2}$
+\end_inset
+
+, so that 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(2X+Y<8\right) & = & \int_{2}^{5}\int_{0}^{4-\frac{y}{2}}\frac{1}{12}e^{-\frac{x}{4}}dxdy\\
+ & = & \int_{2}^{5}\frac{1}{3}\left(1-e^{y/8-1}\right)dx\\
+ & = & 1-\frac{8}{3}\left(e^{-\frac{3}{8}}-e^{-\frac{3}{4}}\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Consider 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ given by the joint density 
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+10x^{2}y & 0\leq y\leq x\leq1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the marginal pdfs, 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+ and 
+\begin_inset Formula $f_{Y}(x)$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We have 
+\begin_inset Formula 
+\begin{eqnarray*}
+f_{X}(x) & = & \begin{cases}
+5x^{4} & 0\leq x\leq1\\
+0 & \mbox{otherwise}
+\end{cases},\\
+f_{Y}(y) & = & \begin{cases}
+\frac{10}{3}y(1-y^{3}) & 0\leq y\leq1\\
+0 & \mbox{otherwise}
+\end{cases}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Are 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ independent random variables?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ No, since 
+\begin_inset Formula $f_{X,Y}\neq f_{X}f_{Y}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Find 
+\begin_inset Formula $\mathbb{P}\left(Y\leq\frac{X}{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $\mathbb{P}\left(Y\leq\frac{X}{2}\right)=\frac{1}{4}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Find 
+\begin_inset Formula $\mathbb{P}\left(Y\leq\frac{X}{4}\mid Y\leq\frac{X}{2}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Also 
+\begin_inset Formula $\frac{1}{4}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Find 
+\begin_inset Formula $\mathbb{E}\left[X\right]$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Use 
+\begin_inset Formula $f_{X}$
+\end_inset
+
+ from part (a) the definition of expected value.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Consider 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ given by the joint density 
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+4xy & 0\leq x\leq1,0\leq y\leq1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the joint pdf's, 
+\begin_inset Formula $f_{X}$
+\end_inset
+
+ and 
+\begin_inset Formula $f_{Y}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula $f_{X}=2x$
+\end_inset
+
+ and 
+\begin_inset Formula $f_{Y}=2y$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Are 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ independent?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Yes! Since 
+\begin_inset Formula $f(x,y)=f_{X}f_{Y}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Find 
+\begin_inset Formula $\mathbb{E}Y$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We have 
+\begin_inset Formula $\mathbb{E}Y=\int_{0}^{1}y\cdot2ydy=\frac{2}{3}$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Consider 
+\begin_inset Formula $X,Y$
+\end_inset
+
+ given by the joint pdf
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+\frac{2}{3}\left(x+2y\right) & 0\leq x\leq1,0\leq y\leq1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+Are 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ independent random variables?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+We get 
+\begin_inset Formula $f_{X}=\left(\frac{2}{3}x+\frac{2}{3}\right)$
+\end_inset
+
+ while 
+\begin_inset Formula $f_{Y}=\frac{1}{3}+\frac{4}{3}y$
+\end_inset
+
+ and 
+\begin_inset Formula $f\neq f_{X}f_{Y}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that that gross weekly ticket sales for UConn basketball games are
+ normally distributed with mean 
+\begin_inset Formula $\$2,200,000$
+\end_inset
+
+ and standard deviation 
+\begin_inset Formula $\$230,000$
+\end_inset
+
+.
+ What is the probability that the total gross ticket sales over the next
+ two weeks exceeds 
+\begin_inset Formula $\$4,600,000$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ If 
+\begin_inset Formula $W=X_{1}+X_{2}$
+\end_inset
+
+ is the sales over the next two weeks, then 
+\begin_inset Formula $W$
+\end_inset
+
+ is normal with mean 
+\begin_inset Formula $2,200,000+2,200,000=4,400,00$
+\end_inset
+
+ and variance 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $230,000^{2}+230,000^{2}$
+\end_inset
+
+.
+ Thus the variance is 
+\begin_inset Formula $\sqrt{230,000^{2}+230,000^{2}}=325,269.1193$
+\end_inset
+
+.
+ Hence 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(W>5,000,000\right) & = & \mathbb{P}\left(Z>\frac{4,600,000-4,400,000}{325,269.1193}\right)\\
+ & = & \mathbb{P}\left(Z>.6149\right)\\
+ & \approx & 1-\Phi\left(.61\right)\\
+ & = & .27
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose the joint density function of the random variable 
+\begin_inset Formula $X_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{2}$
+\end_inset
+
+ are 
+\begin_inset Formula 
+\[
+f(x_{1},x_{2})=\begin{cases}
+4x_{1}x_{2} & 0<x_{1}<1,0<x_{2}<1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+Let 
+\begin_inset Formula $Y_{1}=2X_{1}+X_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y_{2}=X_{1}-3X_{2}$
+\end_inset
+
+.
+ What is the joint density function of 
+\begin_inset Formula $Y_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y_{2}$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Step1: Find the Jacobian: Note that 
+\begin_inset Formula 
+\begin{eqnarray*}
+y_{1} & = & g_{1}\left(x_{1},x_{2}\right)=2x_{1}+x_{2},\\
+y_{2} & = & g_{2}\left(x_{1},x_{2}\right)=x_{1}-3x_{2}.
+\end{eqnarray*}
+
+\end_inset
+
+So 
+\begin_inset Formula 
+\[
+J\left(x_{1},x_{2}\right)=\left|\begin{array}{cc}
+2 & 1\\
+1 & -3
+\end{array}\right|=-7.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Step2: Solve for 
+\begin_inset Formula $x_{1},x_{2}$
+\end_inset
+
+ and get 
+\begin_inset Formula 
+\begin{eqnarray*}
+x_{1} & = & \frac{3}{7}y_{1}+\frac{1}{y}y_{2}\\
+x_{2} & = & \frac{1}{7}y_{1}-\frac{2}{7}y_{2}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Step3: The joint pdf of 
+\begin_inset Formula $Y_{1},Y_{2}$
+\end_inset
+
+ is given by the formula: 
+\begin_inset Formula 
+\begin{eqnarray*}
+f_{Y_{1},Y_{2}}\left(y_{1},y_{2}\right) & = & f_{X_{1},X_{2}}\left(x_{1},x_{2}\right)\left|J\left(x_{1},x_{2}\right)\right|^{-1}\\
+ & = & f_{X_{1},X_{2}}\left(\frac{3}{7}y_{1}+\frac{1}{y}y_{2},\frac{1}{7}y_{1}-\frac{2}{7}y_{2}\right)\frac{1}{7}.
+\end{eqnarray*}
+
+\end_inset
+
+Since we are given the joint pdf of 
+\begin_inset Formula $X_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{2}$
+\end_inset
+
+, then plugging it these into 
+\begin_inset Formula $f_{X_{1},X_{2}}$
+\end_inset
+
+, we have 
+\begin_inset Formula 
+\begin{eqnarray*}
+f_{Y_{1},Y_{2}}\left(y_{1},y_{2}\right) & = & \begin{cases}
+\frac{4}{7^{3}}\left(3y_{1}+y_{2}\right)\left(y_{1}-2y_{2}\right) & 0<3y_{1}+y_{2}<7,0<y_{1}-2y_{2}<2\\
+0 & \mbox{otherwise}.
+\end{cases}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Suppose the joint density function of the random variable 
+\begin_inset Formula $X_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{2}$
+\end_inset
+
+ are 
+\begin_inset Formula 
+\[
+f(x_{1},x_{2})=\begin{cases}
+\frac{3}{2}\left(x_{1}^{2}+x_{2}^{2}\right) & 0<x_{1}<1,0<x_{2}<1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+Let 
+\begin_inset Formula $Y_{1}=X_{1}-2x_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y_{2}=2X_{1}+3X_{2}$
+\end_inset
+
+.
+ What is the joint density function of 
+\begin_inset Formula $Y_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y_{2}$
+\end_inset
+
+?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Step1: Find the Jacobian: Note that 
+\begin_inset Formula 
+\begin{eqnarray*}
+y_{1} & = & g_{1}\left(x_{1},x_{2}\right)=x_{1}-2x_{2},\\
+y_{2} & = & g_{2}\left(x_{1},x_{2}\right)=2x_{1}+3x_{2}.
+\end{eqnarray*}
+
+\end_inset
+
+So 
+\begin_inset Formula 
+\[
+J\left(x_{1},x_{2}\right)=\left|\begin{array}{cc}
+1 & -2\\
+2 & 3
+\end{array}\right|=7.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Step2: Solve for 
+\begin_inset Formula $x_{1},x_{2}$
+\end_inset
+
+ and get 
+\begin_inset Formula 
+\begin{eqnarray*}
+x_{1} & = & \frac{1}{7}\left(3y_{1}+2y_{2}\right)\\
+x_{2} & = & \frac{1}{7}\left(-2y_{1}+y_{2}\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Step3: The joint pdf of 
+\begin_inset Formula $Y_{1},Y_{2}$
+\end_inset
+
+ is given by the formula: 
+\begin_inset Formula 
+\begin{eqnarray*}
+f_{Y_{1},Y_{2}}\left(y_{1},y_{2}\right) & = & f_{X_{1},X_{2}}\left(x_{1},x_{2}\right)\left|J\left(x_{1},x_{2}\right)\right|^{-1}\\
+ & = & f_{X_{1},X_{2}}\left(\frac{1}{7}\left(3y_{1}+2y_{2}\right),\frac{1}{7}\left(-2y_{1}+y_{2}\right)\right)\frac{1}{7}.
+\end{eqnarray*}
+
+\end_inset
+
+Since we are given the joint pdf of 
+\begin_inset Formula $X_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{2}$
+\end_inset
+
+, then plugging it these into 
+\begin_inset Formula $f_{X_{1},X_{2}}$
+\end_inset
+
+, we have 
+\begin_inset Formula 
+\begin{eqnarray*}
+f_{Y_{1},Y_{2}}\left(y_{1},y_{2}\right) & = & \begin{cases}
+\frac{3}{2}\cdot\frac{1}{7^{3}}\left(\left(3y_{1}+2y_{2}\right)^{2}+\left(-2y_{1}+y_{2}\right)^{2}\right) & 0<3y_{1}+2y_{2}<7,0<-2y_{1}+y_{2}<7\\
+0 & \mbox{otherwise}.
+\end{cases}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Expectations
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose the joint distribution for 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is given by the joint probability mass function shown below:
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Y\backslash X$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $.2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calculate the covariance of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ First let's calculate the marginal distributions:
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Y\backslash X$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $.2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+Then 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{E}XY & = & \left(0\cdot0\right)0+\left(0\cdot1\right).5+\left(1\cdot0\right).3+\left(1\cdot1\right).2=.2\\
+\mathbb{E}X & = & 0\cdot.5+1\cdot.5=.5\\
+\mathbb{E}Y & = & 0\cdot.3+1\cdot.7=.7.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\mbox{Var}(X)$
+\end_inset
+
+ and 
+\begin_inset Formula $\mbox{Var}(Y)$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ First need 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{E}X^{2} & = & 0^{2}.5+1^{2}.5=.5\\
+\mathbb{E}Y^{2} & = & 0^{2}.3+1^{2}.7=.7
+\end{eqnarray*}
+
+\end_inset
+
+Therefore 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mbox{Var}(X) & = & \mathbb{E}X^{2}-\left(\mathbb{E}X\right)^{2}=.5-\left(.5\right)^{2}=.25,\\
+\mbox{Var}(Y) & = & \mathbb{E}Y^{2}-\left(\mathbb{E}Y\right)^{2}=.7-\left(.7\right)^{2}=.21,
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\rho(X,Y)$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\begin_inset Formula 
+\[
+\rho(X,Y)=\frac{\mbox{Cov}(X,Y)}{\sqrt{\mbox{Var}(X)\cdot\mbox{Var}(Y})}=\approx-.6547.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ be random variable whose joint probability density function is given by
+ 
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+x+y & 0<x<1,0<y<1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calculate the covariance of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+We'll need 
+\begin_inset Formula $\mathbb{E}\left[XY\right],\mathbb{E}X,$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbb{E}Y$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{E}\left[XY\right] & = & \int_{0}^{1}\int_{0}^{1}xy\left(x+y\right)dydx=\int_{0}^{1}\left(\frac{x^{2}}{2}+\frac{x}{3}\right)dx=\frac{1}{3},\\
+\mathbb{E}X & = & \int_{0}^{1}\int_{0}^{1}x(x+y)dydx=\int_{0}^{1}(x^{2}+\frac{x}{2})dx=\frac{7}{12}\\
+\mathbb{E}Y & = & \frac{7}{12},\mbox{ by symmetry with the }\mathbb{E}X\mbox{ case}.
+\end{eqnarray*}
+
+\end_inset
+
+Therefore, 
+\begin_inset Formula 
+\[
+\mbox{Cov}(X,Y)=\mathbb{E}\left[XY\right]-\mathbb{E}\left[X\right]\mathbb{E}\left[Y\right]=\frac{1}{3}-\left(\frac{7}{12}\right)^{2}=-\frac{1}{144}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\mbox{Var}(X)$
+\end_inset
+
+ and 
+\begin_inset Formula $\mbox{Var}(Y)$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+We need 
+\begin_inset Formula $\mathbb{E}X^{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbb{E}Y^{2}$
+\end_inset
+
+, 
+\begin_inset Formula 
+\[
+\mathbb{E}X^{2}=\int_{0}^{1}\int_{0}^{1}x^{2}(x+y)dydx=\int_{0}^{1}(x^{3}+\frac{x^{2}}{2})dx=\frac{5}{12}
+\]
+
+\end_inset
+
+so we know that 
+\begin_inset Formula $\mathbb{E}Y^{2}=\frac{5}{12}$
+\end_inset
+
+ by symmetry.
+ Therefore 
+\begin_inset Formula 
+\[
+\mbox{Var}(X)=\mbox{Var}(Y)=\frac{5}{12}-\left(\frac{7}{12}\right)^{2}=\frac{11}{144}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\rho(X,Y)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\begin_inset Formula 
+\[
+\rho(X,Y)=\frac{\mbox{Cov}(X,Y)}{\sqrt{\mbox{Var}(X)\cdot\mbox{Var}(Y})}=-\frac{1}{11}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be normally distributed with mean 
+\begin_inset Formula $1$
+\end_inset
+
+ and variance 
+\begin_inset Formula $9$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $Y$
+\end_inset
+
+ be exponentially distributed with 
+\begin_inset Formula $\lambda=2$
+\end_inset
+
+.
+ Suppose 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ are independent.
+ Find 
+\begin_inset Formula $\mathbb{E}\left[\left(X-1\right)^{2}Y\right]$
+\end_inset
+
+.
+ (Hint: Use a propeties about expectations)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ Since 
+\begin_inset Formula $X,Y$
+\end_inset
+
+ are independent then 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{E}\left[\left(X-1\right)^{2}Y\right] & = & \mathbb{E}\left[\left(X-1\right)^{2}\right]\mathbb{E}\left[Y\right]\\
+ & = & \mbox{Var}(X)\mu_{Y}\\
+ & = & 9\cdot\frac{1}{2}\\
+ & = & \frac{9}{2}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Moment generating functions
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose that you have a fair 4-sided die, and let 
+\begin_inset Formula $X$
+\end_inset
+
+ be the random variable representing the value of the number rolled.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Write down the moment generating function for 
+\begin_inset Formula $X$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+
+\begin_inset Formula 
+\begin{eqnarray*}
+m_{X}(t) & = & \mathbb{E}\left[e^{tX}\right]=e^{1\cdot t}\frac{1}{4}+e^{2\cdot t}\frac{1}{4}+e^{3\cdot t}\frac{1}{4}+e^{4\cdot t}\frac{1}{4}\\
+ & = & \frac{1}{4}\left(e^{1\cdot t}+e^{2\cdot t}+e^{3\cdot t}+e^{4\cdot t}\right)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Use this moment generating function to compute the first and second moments
+ of 
+\begin_inset Formula $X$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution: 
+\series default
+We have
+\begin_inset Formula 
+\begin{eqnarray*}
+m_{X}^{\prime}(t) & = & \frac{1}{4}\left(e^{1\cdot t}+2e^{2\cdot t}+3e^{3\cdot t}+4e^{4\cdot t}\right),\\
+m_{X}^{\prime}(t) & = & \frac{1}{4}\left(e^{1\cdot t}+4e^{2\cdot t}+9e^{3\cdot t}+16e^{4\cdot t}\right),
+\end{eqnarray*}
+
+\end_inset
+
+so
+\begin_inset Formula 
+\[
+\mathbb{E}X=m_{X}^{\prime}(0)=\frac{1}{4}\left(1+2+3+4\right)=\frac{5}{2}
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+\mathbb{E}X^{2}=m_{X}^{\prime\prime}(0)=\frac{1}{4}\left(1+4+9+16\right)=\frac{15}{2}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be a random variable whose probability density function is given by
+\begin_inset Formula 
+\[
+f_{X}(x)=\begin{cases}
+e^{-2x}+\frac{1}{2}e^{-x} & x>0\\
+0 & \mbox{otherwise}
+\end{cases}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Write down the moment generating function for 
+\begin_inset Formula $X$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ 
+\begin_inset Formula 
+\begin{eqnarray*}
+m_{X}(t) & = & \mathbb{E}\left[e^{tX}\right]=\int_{0}^{\infty}e^{tx}\left(e^{-2x}+\frac{1}{2}e^{-x}\right)dx\\
+ & = & \frac{1}{2-t}+\frac{1}{2\left(1-t\right)},\,\,\,\mbox{for }t<1.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Use this moment generating function to compute the first and second moments
+ of 
+\begin_inset Formula $X$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+\bar under
+ 
+\bar default
+We have 
+\begin_inset Formula 
+\begin{eqnarray*}
+m_{X}^{\prime}(t) & = & \frac{1}{\left(2-t\right)^{2}}+\frac{1}{2\left(1-t\right)^{2}}\\
+m_{X}^{\prime\prime}(t) & = & \frac{2}{\left(2-t\right)^{3}}+\frac{1}{\left(1-t\right)^{3}}
+\end{eqnarray*}
+
+\end_inset
+
+so 
+\begin_inset Formula $\mathbb{E}X=m_{X}^{\prime}(0)=\frac{3}{4}$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbb{E}X^{2}=m_{X}^{\prime\prime}=\frac{5}{4}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Suppose 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ are independent random variables with parameters 
+\begin_inset Formula $\lambda_{x},\lambda_{y}$
+\end_inset
+
+, respectively.
+ Find the distribution of 
+\begin_inset Formula $X+Y$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+\bar under
+Solution:
+\series default
+\bar default
+ Since 
+\begin_inset Formula $X\sim\mbox{Pois}(\lambda_{x})$
+\end_inset
+
+ and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $Y\sim\mbox{Pois}(\lambda_{y})$
+\end_inset
+
+ then 
+\begin_inset Formula 
+\[
+m_{X}(t)=e^{\lambda_{x}\left(e^{t}-1\right)}\mbox{ and }m_{Y}(t)=e^{\lambda_{y}\left(e^{t}-1\right)}.
+\]
+
+\end_inset
+
+Then 
+\begin_inset Formula 
+\begin{eqnarray*}
+m_{X+Y}(t) & = & m_{X}(t)m_{Y}(t),\,\,\,\,\mbox{by independence}\\
+ & = & e^{\lambda_{x}\left(e^{t}-1\right)}e^{\lambda_{y}\left(e^{t}-1\right)}\\
+ & = & e^{\left(\lambda_{x}+\lambda_{y}\right)\left(e^{t}-1\right)}.
+\end{eqnarray*}
+
+\end_inset
+
+Thus 
+\begin_inset Formula $X+Y\sim\mbox{Pois}\left(\lambda_{x}+\lambda_{y}\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that a mathematician determines that the revenue the UConn Dairy
+ Bar makes in a week is a random variable, 
+\begin_inset Formula $X$
+\end_inset
+
+, with moment generating function
+\begin_inset Formula 
+\[
+m_{X}(t)=\frac{1}{\left(1-2500t\right)^{4}}
+\]
+
+\end_inset
+
+Calculate the standard deviation of the revenue the UConn Dairy bar makes
+ in a week.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ We want 
+\begin_inset Formula $SD(X)=\sqrt{\mbox{Var}(X)}$
+\end_inset
+
+.
+ But 
+\begin_inset Formula $\mbox{Var}(X)=\mathbb{E}X^{2}-\left(\mathbb{E}X\right)^{2}$
+\end_inset
+
+.
+ We compute 
+\begin_inset Formula 
+\begin{eqnarray*}
+m^{\prime}(t) & = & 4\left(2500\right)\left(1-2500t\right)^{-5},\\
+m^{\prime\prime}(t) & = & 20\left(2500\right)^{2}\left(1-2500t\right)^{-6},\\
+\mathbb{E}X & = & m^{\prime}(0)=10,000\\
+\mathbb{E}X^{2} & = & m^{\prime\prime}(0)=125,000,000\\
+\mbox{Var}(X) & = & 125,000,000-10,000^{2}=25,000,000\\
+SD(X) & = & \sqrt{25,000,000}=\mathbf{5,000}.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ be two independent random variables with respective moment generating functions
+ 
+\begin_inset Formula 
+\[
+m_{X}(t)=\frac{1}{1-5t},\,\,\,\,\mbox{if }t<\frac{1}{5},\,\,\,\, m_{Y}(t)=\frac{1}{\left(1-5t\right)^{2}},\,\,\,\,\mbox{if }t<\frac{1}{5}.
+\]
+
+\end_inset
+
+Find 
+\begin_inset Formula $\mathbb{E}\left(X+Y\right)^{2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Solution:
+\series default
+ First recall that if we let 
+\begin_inset Formula $W=X+Y$
+\end_inset
+
+ t, and 
+\begin_inset Formula $X,Y$
+\end_inset
+
+ indepedent then 
+\begin_inset Formula 
+\[
+m_{W}(t)=m_{X+Y}(t)=m_{X}(t)m_{Y}(t)=\frac{1}{\left(1-5t\right)^{3}},
+\]
+
+\end_inset
+
+recall that 
+\begin_inset Formula $\mathbb{E}\left[W^{2}\right]=m_{W}^{\prime\prime}(0)$
+\end_inset
+
+.
+ Thus we need to compute some derivatives 
+\begin_inset Formula 
+\begin{eqnarray*}
+m_{W}^{\prime}(t) & = & \frac{15}{\left(1-5x\right)^{4}},\\
+m_{W}^{\prime\prime}(t) & = & \frac{300}{\left(1-5x\right)^{5}},
+\end{eqnarray*}
+
+\end_inset
+
+thus 
+\begin_inset Formula 
+\[
+\mathbb{E}\left[W^{2}\right]=m_{W}^{\prime\prime}(0)=\frac{300}{\left(1-0\right)^{5}}=300.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Limit Laws
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+In a 162-game season, find the approximate probability that a team with
+ a 0.5 chance of winning will win at least 87 games.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+\bar under
+Solution:
+\series default
+\bar default
+ Let 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+ be 
+\begin_inset Formula $1$
+\end_inset
+
+ if the team win's the 
+\begin_inset Formula $i$
+\end_inset
+
+th game and 
+\begin_inset Formula $0$
+\end_inset
+
+ if the team loses.
+ This is a Bernoulli R.V.
+ with 
+\begin_inset Formula $p=.5$
+\end_inset
+
+.
+ Thus 
+\begin_inset Formula $\mu=p=.5$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma^{2}=p\left(1-p\right)=\left(.5\right)^{2}$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula 
+\[
+X=\sum_{i=1}^{162}X_{i}
+\]
+
+\end_inset
+
+is the number of games won in the season.
+ Using CLT 
+\begin_inset Formula 
+\begin{eqnarray*}
+n\mu & = & 162\cdot.5=81\\
+\sigma\sqrt{n} & = & .5\sqrt{162}=6.36
+\end{eqnarray*}
+
+\end_inset
+
+then
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(\sum_{i=1}^{162}X_{i}\geq87\right) & = & \mathbb{P}\left(X\geq86.5\right)\\
+ & = & \mathbb{P}\left(\frac{X-81}{6.36}>\frac{86.5-81}{6.36}\right)\\
+ & \approx & \mathbb{P}\left(Z>.86\right)=.1949
+\end{eqnarray*}
+
+\end_inset
+
+where we used a correction since 
+\begin_inset Formula $X$
+\end_inset
+
+ is a discrete r.v.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+An individual students MATH 3160 Final exam score at UConn is a random variable
+ with mean 75 and variance 25, How many students would have to take the
+ examination to ensure with probability at least .9 that the class average
+ would be within 5 of 75?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+\bar under
+Solution:
+\series default
+\bar default
+Now 
+\begin_inset Formula $\mu=75$
+\end_inset
+
+, 
+\begin_inset Formula $\sigma^{2}=25,\sigma=5$
+\end_inset
+
+.
+ 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(70<\frac{\sum_{i=1}^{n}X_{i}}{n}<80\right)\geq.9 & \iff & \mathbb{P}\left(70\cdot n<\sum_{i=1}^{n}X_{i}<80\cdot n\right)\geq.9\\
+ & \iff & \mathbb{P}\left(\frac{70\cdot n-75\cdot n}{5\sqrt{n}}<Z<\frac{80\cdot n-75\cdot n}{5\sqrt{n}}\right)\geq.9\\
+ & \iff & \mathbb{P}\left(-5\frac{\sqrt{n}}{5}<Z<5\frac{\sqrt{n}}{5}\right)\geq.9\\
+ & \iff & \mathbb{P}\left(-\sqrt{n}<Z<\sqrt{n}\right)\geq.9\\
+ & \iff & \Phi\left(\sqrt{n}\right)-\Phi\left(-\sqrt{n}\right)\geq.9\\
+ & \iff & \Phi\left(\sqrt{n}\right)-\left(1-\Phi\left(\sqrt{n}\right)\right)\geq.9\\
+ & \iff & 2\Phi\left(\sqrt{n}\right)-1\geq.9\\
+ & \iff & \Phi\left(\sqrt{n}\right)\geq.95
+\end{eqnarray*}
+
+\end_inset
+
+Using the table inversely we have that 
+\begin_inset Formula 
+\[
+\sqrt{n}\geq1.65\implies n\geq2.722
+\]
+
+\end_inset
+
+hence the first integer that insurers that 
+\begin_inset Formula $n\geq2.722$
+\end_inset
+
+ is 
+\begin_inset Formula 
+\[
+n=3.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X_{1},X_{2},\dots,X_{100}$
+\end_inset
+
+ be independent exponential random variables with parameter 
+\begin_inset Formula $\lambda=1$
+\end_inset
+
+.
+ Use the central limit theorem to approximate 
+\begin_inset Formula 
+\[
+\mathbb{P}\left(\sum_{i=1}^{100}X_{i}>90\right).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+\bar under
+Solution:
+\series default
+\bar default
+ Since 
+\begin_inset Formula $\lambda=1$
+\end_inset
+
+ then 
+\begin_inset Formula $\mathbb{E}X_{i}=1$
+\end_inset
+
+ and 
+\begin_inset Formula $\mbox{Var}(X_{i})=1$
+\end_inset
+
+.
+ Use CLT
+\begin_inset Formula 
+\begin{eqnarray*}
+n\mu & = & 100\cdot1=100\\
+\sigma\sqrt{n} & = & 1\cdot\sqrt{100}=10.
+\end{eqnarray*}
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(\sum_{i=1}^{100}X_{i}>90\right) & = & \mathbb{P}\left(\frac{\sum_{i=1}^{100}X_{i}-100\cdot1}{1\cdot\sqrt{100}}>\frac{90-100\cdot1}{1\cdot\sqrt{100}}\right)\\
+ & \approx & \mathbb{P}\left(Z>-1\right)=.8413.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose an insurance company has 10,000 automobile policy holders.
+ The expected yearly claim per policy holder is $240, with a standard deviation
+ of $800.
+ Approximate the probability that the total yearly claim is greater than
+ $2,500,000.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+\bar under
+Solution:
+\series default
+\bar default
+ 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X\geq1300\right) & = & \mathbb{P}\left(\frac{X-2400000}{80000}\geq\frac{2500000-2400000}{80000}\right)\\
+ & \approx & \mathbb{P}\left(Z\geq1.25\right)\\
+ & = & 1-\Phi(1.25)=1-.8944\\
+ & = & .1056.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose you are the only clerk at the UConn dairy bar.
+ Suppose that the checkout time at the dairy bar has a mean of 5 minutes
+ and a standard deviation of 2 minutes.
+ Estimate the probability that a clerk will serve at least 36 customers
+ during her 3-hour and a half shift.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+\bar under
+Solution:
+\series default
+\bar default
+ Let 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+ be the time it takes to check out customer 
+\begin_inset Formula $i$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula 
+\[
+X=X_{1}+\cdots+X_{36}
+\]
+
+\end_inset
+
+is the time it takes to check out 36 customer.
+ We want 
+\begin_inset Formula $\mathbb{P}\left(X\leq210\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Use CLT, 
+\begin_inset Formula 
+\begin{eqnarray*}
+n\mu & = & 36\cdot5=180\\
+\sigma\sqrt{n} & = & 2\sqrt{36}=12.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Thus 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X\leq210\right) & = & \mathbb{P}\left(\frac{X-180}{12}\leq\frac{210-180}{12}\right)\\
+ & \approx & \mathbb{P}\left(Z\leq2.5\right)\\
+ & = & \Phi(2.5)\\
+ & = & .9938.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Shabazz Napier is a basketball player in the NBA.
+ His expected number of points per game is 15 with a standard deviation
+ of 5 points per game.
+ The NBA season is 82 games long.
+ Shabazz is guaranteed a ten million dollar raise next year if he can score
+ a total of 1300 points this season.
+ Approximate the probability that Shabazz will get a raise next season.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+\bar under
+Solution:
+\series default
+\bar default
+Let 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+ be the number of points scored by Shabazz in game 
+\begin_inset Formula $i$
+\end_inset
+
+ .
+ Then 
+\begin_inset Formula 
+\[
+X=X_{1}+\cdots+X_{82}
+\]
+
+\end_inset
+
+is the total number of points in a whole season.
+ We want 
+\begin_inset Formula $\mathbb{P}\left(X\geq1800\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Use CLT, 
+\begin_inset Formula 
+\begin{eqnarray*}
+n\mu & = & 82\cdot15=1230\\
+\sigma\sqrt{n} & = & 5\sqrt{82}=45.28.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Thus 
+\begin_inset Formula 
+\begin{eqnarray*}
+\mathbb{P}\left(X\geq1300\right) & = & \mathbb{P}\left(\frac{X-1230}{45.28}\geq\frac{1300-1230}{45.28}\right)\\
+ & \approx & \mathbb{P}\left(Z\geq1.55\right)\\
+ & = & 1-\Phi(1.55)=1-.9394\\
+ & = & .0606.
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\end_body
+\end_document

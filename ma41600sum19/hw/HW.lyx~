@@ -1,0 +1,3013 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\rightmargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Probability Exercises
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Combinatorics
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Section
+Problems
+\end_layout
+
+\begin_layout Enumerate
+Suppose a License plate must consist of 7 numbers of letter.
+ How many license plates are there if
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+there can only be letters?
+\end_layout
+
+\begin_layout Enumerate
+the first three places are numbers and the last four are letters?
+\end_layout
+
+\begin_layout Enumerate
+the first three places are numbers and the last four are letters, but there
+ can not be any repetitions in the same license plate?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A school of 50 students has awards for the top math, english, history and
+ science student in the school
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How many ways can these awards be given if each student can only win one
+ award?
+\end_layout
+
+\begin_layout Enumerate
+How many ways can these awards be given if students can win multiple awards?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+An iPhone password can be made up of any 4 digit combination.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How many different passwords are possible? 
+\end_layout
+
+\begin_layout Enumerate
+How many are possible if all the digits are odd? 
+\end_layout
+
+\begin_layout Enumerate
+How many can be made in which all digits are different or all digits are
+ the same?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+There is a class of 25 people made up of 11 guys and 14 girls.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How many ways are there to make a committee of 5 people?
+\end_layout
+
+\begin_layout Enumerate
+How many ways are there to pick a committee of all girls?
+\end_layout
+
+\begin_layout Enumerate
+How many ways are there to pick a committee of 3 girls and 2 guys?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+If a student council contains 10 people, how many ways are there to elect
+ a president, a vice president, and a 3 person prom committee from the group
+ of 10 students?
+\end_layout
+
+\begin_layout Enumerate
+Suppose you are organizing your textbooks on a book shelf.
+ You have three chemistry books, 5 math books, 2 history books and 3 english
+ books.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How many ways can you order the textbooks if you must have math books first,
+ english books second, chemistry third, and history fourth?
+\end_layout
+
+\begin_layout Enumerate
+How many ways can you order the books if each subject must be ordered together?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+You buy a Powerball lottery ticket.
+ You choose 5 numbers between 1 and 59 (picked on white balls) and one number
+ between 1 and 35 (picked on a red ball).How many ways can you 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+win the jackpot (guess all the numbers correctly)? 
+\end_layout
+
+\begin_layout Enumerate
+match all the white balls but not the red ball? 
+\end_layout
+
+\begin_layout Enumerate
+match 3 white balls and the red ball?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A couple wants to invite their friends to be in their wedding party.
+ The groom has 8 possible groomsmen and the bride has 11 possible bridesmaids.
+ The wedding party will consist of 5 groomsman and 5 bridesmaids.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+How many wedding party's are possible? 
+\end_layout
+
+\begin_layout Enumerate
+Suppose that two of the possible groomsmen are feuding and will only accept
+ an invitation if the other one is not going.
+ How many wedding party's are possible? 
+\end_layout
+
+\begin_layout Enumerate
+Suppose that two of the possible bridesmaids are feuding and will only accept
+ an invitation if the other one is not going.
+ How many wedding party's are possible? 
+\end_layout
+
+\begin_layout Enumerate
+Suppose that one possible groosman and one possible woman refuse to serve
+ together.
+ How many wedding party's are possible? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+There are 52 cards in a standard deck of playing cards.
+ The poker hand is consists of five cards.
+ How many poker hands are there?
+\end_layout
+
+\begin_layout Enumerate
+There are 30 people in a communications class.
+ Each student must have a conversation with each student in the class for
+ a project.
+ How many total convesations will there be? 
+\end_layout
+
+\begin_layout Enumerate
+Suppose a college basketball tournament consists of 64 teams playing head
+ to head in a knockout style tournament.
+ There are 6 rounds, the round of 64, round of 32, round of 16, round of
+ 8, the final four teams, and the finals.
+ Suppose you are filling out a bracket such as this 
+\begin_inset Graphics
+	filename pics/1.1.png
+	scale 20
+
+\end_inset
+
+which specifies which teams will win each game in each round.
+ How many possible brackets can you make? 
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+The probability set up
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose a box contains 3 balls : 1 red, 1 green, and 1 blue
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Consider an experiment that consists of taking 1 ball from the box and then
+ replacing it in the box and drawing a second ball from the box.
+ List all possible outcomes.
+\end_layout
+
+\begin_layout Enumerate
+Consider an experiment that consists of taking 1 ball from the box and then
+ drawing a second ball from the box without replacing the first.
+ List all possible outcomes.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ are mutually exclusive events for which 
+\begin_inset Formula $P(A)=.3$
+\end_inset
+
+ and 
+\begin_inset Formula $P(B)=.5$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that 
+\begin_inset Formula $A$
+\end_inset
+
+ occurs but 
+\begin_inset Formula $B$
+\end_inset
+
+ does not? 
+\end_layout
+
+\begin_layout Enumerate
+What is the probability that neither 
+\begin_inset Formula $A$
+\end_inset
+
+ nor 
+\begin_inset Formula $B$
+\end_inset
+
+ occurs? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Forty percent of college students from a certain college are members of
+ neither an academic club nor a greek organization.
+ Fifty percent are members of academic clubs while thirty percent are members
+ of a greek organization.
+ Suppose a student is chosen at random, what is the probability that this
+ students is a member
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+of an academic club or a greek organization?
+\end_layout
+
+\begin_layout Enumerate
+of an academic club and a greek organization?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+In City, 60% of the households subscribe to newspaper A, 50% to newspaper
+ B, 40% to newspaper C, 30% to A and B, 20% to B and C, and 10% to A and
+ C, but none subscribe to all three.
+ (Hint: Draw a Venn diagram)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What percentage subscribe to exactly one newspaper?
+\end_layout
+
+\begin_layout Enumerate
+What percentage subscribe to at most one newspaper?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+There are 52 cards in a standard deck of playing cards.
+ The 
+\emph on
+poker hand 
+\emph default
+is consists of five cards.
+ There are 4 
+\emph on
+suits
+\emph default
+: heats, spades, diamonds, and clubs 
+\begin_inset Formula $\left(\heartsuit\spadesuit\diamondsuit\clubsuit\right)$
+\end_inset
+
+.
+ The suit's diamonds and clubs are red while clubs and spades are black.
+ In each suit there are 13 
+\emph on
+ranks
+\emph default
+: The Ace card, the numbers 
+\begin_inset Formula $2,3\dots,10$
+\end_inset
+
+, the face cards, Jack, Queen and King.
+ Find the probability of randomly drawing the following poker hands.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+All red cards?
+\end_layout
+
+\begin_layout Enumerate
+Exactly two 10's and exactly three aces?
+\end_layout
+
+\begin_layout Enumerate
+all face cards or no face cards?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Find the probability of randomly drawing the following poker hands.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A 
+\emph on
+one pair, 
+\emph default
+which consists of two cards of the same rank and three other distinct ranks.
+ (e.g.
+ 22Q59)
+\end_layout
+
+\begin_layout Enumerate
+A 
+\emph on
+two pair
+\emph default
+, which constists of two cards of the same rank, two cards of another rank,
+ and another card of yet another rank.
+ (e.g.
+ JJ779)
+\end_layout
+
+\begin_layout Enumerate
+A 
+\emph on
+three of a kind
+\emph default
+, which consists of a three cards of the same rank, and two others of distinct
+ rank.
+ (e.g.
+ 4449K)
+\end_layout
+
+\begin_layout Enumerate
+A 
+\emph on
+flush
+\emph default
+, which consists of all five cards of the same suit.
+ (e.g.
+ HHHH, SSSS, DDDD, or CCCC)
+\end_layout
+
+\begin_layout Enumerate
+A 
+\emph on
+full house
+\emph default
+, which consists of a two pair and a three of a kind.
+ (e.g.
+ 88844) (Hint: Note that 88844 is a different hand than a 44488)
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose a standard deck of cards is modifed with the additional rank of
+ 
+\emph on
+Super King
+\emph default
+ and the additional suit of 
+\emph on
+Swords
+\emph default
+ so now each card has one of 14 ranks and one of 5 suits.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+If a card is selected at random, what is the probability that it's the 
+\emph on
+Super King of Swords
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+What's the probability of getting a six card hand with exactly three pairs
+ (two cards of one rank and two cards of another rank and two cards of yet
+ another rank, e.g.
+ 7,7,2,2,J,J) ?
+\end_layout
+
+\begin_layout Enumerate
+What's the probability of getting a six card hand which constists of three
+ cards of the same rank, two cards of another rank, and another card of
+ yet another rank.
+ (e.g.
+ 3,3,3,A,A,7)? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A pair of fair dice is rolled.
+ What is the probability that the first die lands on a strictly higher value
+ than the second die.
+\end_layout
+
+\begin_layout Enumerate
+There are 8 students in a class.
+ What is the probability that at least two students share a common birthday
+ month? 
+\end_layout
+
+\begin_layout Enumerate
+Nine balls are randomly withdrawn from an urn that contains 10 blue, 12
+ red, and 15 green balls.
+ What is the probability that
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+2 blue, 5 red, and 2 green balls are withdrawn
+\end_layout
+
+\begin_layout Enumerate
+at least 2 blue balls are withdrawn.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose 4 valedictorians (from different high schools) were all accepted
+ to the 8 Ivy League universities.
+ What is the probability that they each choose to go to a different Ivy
+ League university? 
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Independence
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $B$
+\end_inset
+
+ be two independent events with 
+\begin_inset Formula $P\left(A\right)=.4$
+\end_inset
+
+ and 
+\begin_inset Formula $P\left(A\cup B\right)=.64$
+\end_inset
+
+.
+ What is 
+\begin_inset Formula $P(B)$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+In a class, there are 4 male math majors, 6 female math majors, and 6 male
+ actuarial science majors.
+ How many actuarial science girls must be present in the class if sex and
+ major are independent when choosing a student selected at random?
+\end_layout
+
+\begin_layout Enumerate
+An urn contains 10 balls: 4 red and 6 blue.
+ A second urn contains 16 red balls and an unknown number of blue balls.
+ A single ball is drawn from each urn.
+ The probability that both balls are the same color is 
+\begin_inset Formula $0.44$
+\end_inset
+
+.
+ Calculate the number of blue balls in the second urn.
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Conditional Probability
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Two dice are rolled.
+ Let 
+\begin_inset Formula $A=\left\{ \mbox{sum of two dice equals 3}\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $B=\left\{ \mbox{sum of two dice equals 7 }\right\} $
+\end_inset
+
+, and 
+\begin_inset Formula $C=\left\{ \mbox{at least one of the dice shows a 1}\right\} $
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is 
+\begin_inset Formula $\mathbb{P}\left(A\mid C\right)?$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+What is 
+\begin_inset Formula $\mathbb{P}\left(B\mid C\right)$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Are 
+\begin_inset Formula $A$
+\end_inset
+
+ and 
+\begin_inset Formula $C$
+\end_inset
+
+ indepedent? What about 
+\begin_inset Formula $B$
+\end_inset
+
+ and 
+\begin_inset Formula $C$
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose you roll a two standard, fair, 6-sided dice.
+ What is the probability that the sum is at least 
+\begin_inset Formula $9$
+\end_inset
+
+ given that you rolled at least one 
+\begin_inset Formula $6$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Suppose that Annabelle and Bobby each draw 13 cards from a standard deck
+ of 52.
+ Given that Sarah has exactly two aces, what is the probability that Bobby
+ has exactly one ace?
+\end_layout
+
+\begin_layout Enumerate
+Suppose that 60% of UConn students will be exposed to the flu.
+ If you are exposed and didn't get the flu shot, then the probability that
+ you will get the flu (
+\emph on
+after being exposed
+\emph default
+) is 80%, but if you did get the flu shot, the probability that you will
+ get the flu (
+\emph on
+after being exposed
+\emph default
+) is only 15%.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that a person who got the flu shot will get the
+ flu ?
+\end_layout
+
+\begin_layout Enumerate
+What is the probability that a person who did not get the flu shot will
+ get the flu?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Color blindness is a sex-linked condition, and 5% of men and 0.25% of women
+ are color blind.
+ The population of the United States is 51% female.
+ What is the probability that a color-blind American is a man?
+\end_layout
+
+\begin_layout Enumerate
+Suppose that two factories supply light bulbs to the market.
+ Factory X’s bulbs work for over 5000 hours in 99% of cases, whereas factory
+ Y’s bulbs work for over 5000 hours in 95% of cases.
+ It is known that factory X supplies 60% of the total bulbs available.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the chance that a purchased bulb will work for longer than 5000
+ hours? 
+\end_layout
+
+\begin_layout Enumerate
+Given that a lightbulb works for more than 5000 hours, what is the probability
+ that it came from factory 
+\begin_inset Formula $Y$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Given that a lightbulb work does not work for more than 5000 hours, what
+ is the probability that it came from factory 
+\begin_inset Formula $X$
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A factory production line is manufacturing bolts using three machines, A,
+ B and C.
+ Of the total output, machine A is responsible for 25%, machine B for 35%
+ and machine C for the rest.
+ It is known from previous experience with the machines that 5% of the output
+ from machine A is defective, 4% from machine B and 2% from machine C.
+ A bolt is chosen at random from the production line and found to be defective.
+ What is the probability that it came from Machine 
+\begin_inset Formula $A$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+A multiple choice exam has 4 choices for each question.
+ A student has studied enough so that the probability they will know the
+ answer to a question is 0.5, the probability that they will be able to eliminate
+ one choice is 0.25, otherwise all 4 choices seem equally plausible.
+ If they know the answer they will get the question right.
+ If not they have to guess from the 3 or 4 choices.
+ As the teacher you want the test to measure what the student knows.
+ If the student answers a question correctly what's the probability they
+ knew the answer?
+\end_layout
+
+\begin_layout Enumerate
+A blood test indicates the presence of a particular disease 95% of the time
+ when the disease is actually present.
+ The same test indicates the presence of the disease 0.5% of the time when
+ the disease is not actually present.
+ One percent of the population actually has the disease.
+ Calculate the probability that a person actually has the disease given
+ that the test indicates the presence of the disease.
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Random Variables
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Two balls are chosen randomly from an urn containing 
+\begin_inset Formula $8$
+\end_inset
+
+ white balls, 
+\begin_inset Formula $4$
+\end_inset
+
+ black, and 
+\begin_inset Formula $2$
+\end_inset
+
+ orange balls.
+ Supose that we win 
+\begin_inset Formula $\$2$
+\end_inset
+
+ for each black ball selected and we lose 
+\begin_inset Formula $\$1$
+\end_inset
+
+ for each white ball selected.
+ Let 
+\begin_inset Formula $X$
+\end_inset
+
+ denote our winnings.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What are the possible values of 
+\begin_inset Formula $X$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+What are the probabilities associated to each value?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A card is drawn at random from a standard deck of playing cards.
+ If it is a heart, you win 
+\begin_inset Formula $\$1$
+\end_inset
+
+.
+ If it is a diamond, you have to pay 
+\begin_inset Formula $\$2$
+\end_inset
+
+.
+ If it is any other card, you win 
+\begin_inset Formula $\$3$
+\end_inset
+
+.
+ What is the expected value of your winnings?
+\end_layout
+
+\begin_layout Enumerate
+The game of roulette consists of a small ball and a wheel with 38 numbered
+ pockets around the edge that includes the numbers 
+\begin_inset Formula $1-36,0$
+\end_inset
+
+ and 
+\begin_inset Formula $00$
+\end_inset
+
+.
+ As the wheel is spun, the ball bounces around randomly until it settles
+ down in one of the pockets.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Suppose you bet 
+\begin_inset Formula $\$1$
+\end_inset
+
+ on a single number and random variable 
+\begin_inset Formula $X$
+\end_inset
+
+ represents the (monetary) outcome (the money you win or lose).
+ If the bet wins, the payoff is 
+\begin_inset Formula $\$35$
+\end_inset
+
+ and you get your money back.
+ If you lose the bet then you lose your 
+\begin_inset Formula $\$1$
+\end_inset
+
+.
+ What is the expected profit on a 1 dollar bet ?
+\end_layout
+
+\begin_layout Enumerate
+Suppose you bet 
+\begin_inset Formula $\$1$
+\end_inset
+
+ on the numbers 
+\begin_inset Formula $1-18$
+\end_inset
+
+ and random variable 
+\begin_inset Formula $X$
+\end_inset
+
+ represents the (monetary) outcome (the money you win or lose).
+ If the bet wins, the payoff is 
+\begin_inset Formula $\$1$
+\end_inset
+
+ and you get your money back.
+ If you lose the bet then you lose your 
+\begin_inset Formula $\$1$
+\end_inset
+
+.
+ What is the expected profit on a 1 dollar bet ?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+An insurance company finds that Mark has a 8% chance of getting into a car
+ accident in the next year.
+ If Mark has any kind of accident then the company guarantees to pay him
+ 
+\begin_inset Formula $\$10,000$
+\end_inset
+
+.
+ The company has decided to charge Mark a 
+\begin_inset Formula $\$200$
+\end_inset
+
+ premium for this one year insurance policy.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be the amount profit or loss from this insurance policy in the next year
+ for the insurance company.
+ Find 
+\begin_inset Formula $\mathbb{E}X$
+\end_inset
+
+, the expected return for the Insurance company? Should the insurance company
+ charge more or less on it's premium? 
+\end_layout
+
+\begin_layout Enumerate
+What amount should the insurance company charge Mark in order to guarantee
+ an expected return of 
+\begin_inset Formula $\$100$
+\end_inset
+
+? 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A random variable 
+\begin_inset Formula $X$
+\end_inset
+
+ has the following probability mass function: 
+\begin_inset Formula $p(0)=\frac{1}{3}$
+\end_inset
+
+, 
+\begin_inset Formula $p(1)=\frac{1}{6}$
+\end_inset
+
+ , 
+\begin_inset Formula $p(2)=\frac{1}{4}$
+\end_inset
+
+, 
+\begin_inset Formula $p(3)=\frac{1}{4}$
+\end_inset
+
+ .
+ Find its expected value, variance, and standard deviation.
+\end_layout
+
+\begin_layout Enumerate
+Suppose 
+\begin_inset Formula $X$
+\end_inset
+
+ is a random variable such that 
+\begin_inset Formula $\mathbb{E}\left[X\right]=50$
+\end_inset
+
+ and 
+\begin_inset Formula $\mbox{Var}(X)=12$
+\end_inset
+
+.
+ Calculate the following quantities.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\mathbb{E}\left[X^{2}\right]$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\mathbb{E}\left[3X+2\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\mathbb{E}\left[\left(X+2\right)^{2}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\mbox{Var}\left[-X\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $SD\left(2X\right)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Does there exists a random variable 
+\begin_inset Formula $X$
+\end_inset
+
+ such that 
+\begin_inset Formula $\mathbb{E}\left[X\right]=4$
+\end_inset
+
+ and 
+\begin_inset Formula $\mathbb{E}\left[X^{2}\right]=10$
+\end_inset
+
+? Why or why not ? (Hint: Look at its variance)
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Some Discrete Distributions
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+A UConn student claims that she can tell Dairy Bar ice cream from Friendly's
+ ice cream.
+ As a test, she is given ten samples of ice cream (each sample is either
+ from the Dairy Bar or friendly's) and asked to identify each one.
+ She is right eight times.
+ What is the probability that she would be right exactly eight times if
+ she guessed randomly for each sample?
+\end_layout
+
+\begin_layout Enumerate
+A Pharmaceutical company conducted a study on a new drug that is supposed
+ to treat patients suffering from a certain disease.
+ The study concluded that the drug did not help 25% of those who participated
+ in the study.
+ What is the probability that of 6 randomly selected patients, 4 will recover?
+\end_layout
+
+\begin_layout Enumerate
+20% of all students are left-handed.
+ A class of size 20 meets in a room with 18 right-handed desks and 5 left-handed
+ desks.
+ What is the probability that every student will have a suitable desk?
+\end_layout
+
+\begin_layout Enumerate
+A ball is drawn from an urn containing 4 blue and 5 red balls.
+ After the ball is drawn, it is replaced and another ball is drawn.
+ Suppose this process is done 
+\begin_inset Formula $7$
+\end_inset
+
+ times.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that exactly 2 red balls were drawn in the 7 draws?
+\end_layout
+
+\begin_layout Enumerate
+What is the probability that at least 3 blue balls were drawn in the 7 draws?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The expected number of typos on a page of the new Harry Potter book is .2.
+ What is the probability that the next page you read contains
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+0 typos ?
+\end_layout
+
+\begin_layout Enumerate
+2 or more typos?
+\end_layout
+
+\begin_layout Enumerate
+Explain what your assumptions you used.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The monthly average number of car crashes in Storrs, CT is 3.5.
+ What is the probability that there will be
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+at least 2 accidents in the next month?
+\end_layout
+
+\begin_layout Enumerate
+at most 1 accident in the next month?
+\end_layout
+
+\begin_layout Enumerate
+Explain what your assumptions you used.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose that the average number of burglaries in New York City in a week
+ is 2.2.
+ Approximate the probability that there will be
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+no burglaries in the next week;
+\end_layout
+
+\begin_layout Enumerate
+at least 2 burglaries in the next week.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The number of accidents per working week in a particular shipyard is Poisson
+ distributed with mean 
+\begin_inset Formula $0.5$
+\end_inset
+
+.
+ Find the probability that: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+In a particular week there will be at least 2 accidents.
+\end_layout
+
+\begin_layout Enumerate
+In a particular two week period there will be exactly 5 accidents.
+ 
+\end_layout
+
+\begin_layout Enumerate
+In a particular month (i.e.
+ 4 week period) there will be exactly 2 accidents.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Jennifer is baking cookies.
+ She mixes 400 raisins and 600 chocolate chips into her cookie dough and
+ ends up with 500 cookies.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the probability that a randomly picked cookie will have three raisins
+ in it.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Find the probability that a randomly picked cookie will have at least one
+ chocolate chip in it.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Find the probability that a randomly picked cookie will have no more than
+ two bits in it (a bit is either a raisin or a chocolate chip).
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A roulette wheel has 38 numbers on it: the numbers 0 through 36 and a 00.
+ Suppose that Lauren always bets that the outcome will be a number between
+ 1 and 18 (including 1 and 16).
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that Lauren will lose her first 6 bets.
+\end_layout
+
+\begin_layout Enumerate
+What is the probability that Lauren will first win on her sixth bet?
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Continuous distributions
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be a random variable with probability density function 
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+cx\left(5-x\right) & 0\leq x\leq5\\
+0 & \mbox{otherwise}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the value of 
+\begin_inset Formula $c$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+What is the cumulative distribution function of 
+\begin_inset Formula $X$
+\end_inset
+
+? That is, find 
+\begin_inset Formula $F_{X}(x)=\mathbb{P}\left(X\leq x\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Use your answer in part (b) to find 
+\begin_inset Formula $\mathbb{P}\left(2\leq X\leq3\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+What is 
+\begin_inset Formula $\mathbb{E}\left[X\right]$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+What is 
+\begin_inset Formula $\mbox{Var}(X)$
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+UConn students have designed the new u-phone.
+ They have determined that the lifetime of a U-Phone is given by the random
+ variable 
+\begin_inset Formula $X$
+\end_inset
+
+ (measured in hours), with probability density function 
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+\frac{10}{x^{2}} & x\geq10\\
+0 & x\leq10
+\end{cases}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the probability that the U-phone will last more than 
+\begin_inset Formula $20$
+\end_inset
+
+ hours?
+\end_layout
+
+\begin_layout Enumerate
+What is the cumulative distribution function of 
+\begin_inset Formula $X$
+\end_inset
+
+? That is, find 
+\begin_inset Formula $F_{X}(x)=\mathbb{P}\left(X\leq x\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Use part (b) to help you find 
+\begin_inset Formula $\mathbb{P}\left(X\geq35\right)$
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose the random variable 
+\begin_inset Formula $X$
+\end_inset
+
+ has a density function 
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+\frac{2}{x^{2}} & x>2,\\
+0 & x\leq2.
+\end{cases}
+\]
+
+\end_inset
+
+Compute 
+\begin_inset Formula $\mathbb{E}\left[X\right]$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+An insurance company insures a large number of homes.
+ The insured value, 
+\begin_inset Formula $X$
+\end_inset
+
+, of a randomly selected home is assumed to follow a distribution with density
+ function
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+\frac{3}{x^{4}} & x>1,\\
+0 & ,\mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+Given that a randomly selected home is insured for at least 
+\begin_inset Formula $1.5$
+\end_inset
+
+, calculate the probability that it is insured for less than 
+\begin_inset Formula $2$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+The density function of 
+\begin_inset Formula $X$
+\end_inset
+
+ is given by 
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+a+bx^{2} & 0\leq x\leq1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+If 
+\begin_inset Formula $\mathbb{E}\left[X\right]=\frac{7}{10}$
+\end_inset
+
+, find 
+\begin_inset Formula $a$
+\end_inset
+
+ and 
+\begin_inset Formula $b$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be a random variable with density function 
+\begin_inset Formula 
+\[
+f(x)=\begin{cases}
+\frac{1}{a-1} & 1<x<a\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+Suppose that 
+\begin_inset Formula $\mathbb{E}\left[X\right]=6\mbox{Var}(X)$
+\end_inset
+
+.
+ Find the value of 
+\begin_inset Formula $a$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Suppose you order a pizza from your favorite pizzaria at 7:00 pm, knowing
+ that the time it takes for your pizza to be ready is uniformly distributed
+ between 7:00 pm and 7:30 pm.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that you will have to wait longer than 
+\begin_inset Formula $10$
+\end_inset
+
+ minutes for your pizza?
+\end_layout
+
+\begin_layout Enumerate
+If at 7:15pm, the pizza has not yet arrived, what is the probability that
+ you will have to wait at least an additional 
+\begin_inset Formula $10$
+\end_inset
+
+ minutes?
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Normal Distributions
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose 
+\begin_inset Formula $X$
+\end_inset
+
+ is a normally distributed random variable with 
+\begin_inset Formula $\mu=10$
+\end_inset
+
+ and 
+\begin_inset Formula $\sigma^{2}=36$
+\end_inset
+
+.
+ Find
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\mathbb{P}\left(X>5\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\mathbb{P}\left(4<X<16\right)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\mathbb{P}\left(X<8\right)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The height of maple trees at age 10 are estimated to be normally distributed
+ with mean 
+\begin_inset Formula $200$
+\end_inset
+
+ cm and variance 
+\begin_inset Formula $64$
+\end_inset
+
+ cm.
+ What is the probability a maple tree at age 
+\begin_inset Formula $10$
+\end_inset
+
+ grows more than 
+\begin_inset Formula $210$
+\end_inset
+
+cm? 
+\end_layout
+
+\begin_layout Enumerate
+The peak temperature 
+\begin_inset Formula $T$
+\end_inset
+
+, in degrees Fahrenheit, on a July day in Antarctica is a Normal random
+ variable with a variance of 
+\begin_inset Formula $225$
+\end_inset
+
+.
+ With probability 
+\begin_inset Formula $.5$
+\end_inset
+
+, the temperature 
+\begin_inset Formula $T$
+\end_inset
+
+ exceeds 
+\begin_inset Formula $10$
+\end_inset
+
+ degrees.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is 
+\begin_inset Formula $\mathbb{P}(T>32)$
+\end_inset
+
+, the probability the temperature is above freezing? 
+\end_layout
+
+\begin_layout Enumerate
+What is 
+\begin_inset Formula $\mathbb{P}\left(T<0\right)$
+\end_inset
+
+?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The salaries of UConn professors is approximately normally distributed.
+ Suppose you know that 33 percent of professors earn less than $80,000.
+ Also 33 percent earn more than $120,000.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that a UConn professor makes more than $100,000?
+\end_layout
+
+\begin_layout Enumerate
+What is the probability that a UConn professor makes between $70,000 and
+ $80,000?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Suppose 
+\begin_inset Formula $X$
+\end_inset
+
+ is a normal random variable with mean 
+\begin_inset Formula $5$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $\mathbb{P}\left(X>0\right)=.8888$
+\end_inset
+
+, approximately what is 
+\begin_inset Formula $Var\left(X\right)$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+The shoe size of a UConn basketball player is normally distributed with
+ mean 12 inches and variance 4 inches.
+ Ten percent of all UConn basketball players have a shoe size greater than
+ 
+\begin_inset Formula $c$
+\end_inset
+
+ inches.
+ Find the value of 
+\begin_inset Formula $c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Normal Approximation to the binomial
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose that we roll 2 dice 180 times.
+ Let 
+\begin_inset Formula $E$
+\end_inset
+
+ be the event that we roll two fives no more than once.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the exact probability of 
+\begin_inset Formula $E$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Approximate 
+\begin_inset Formula $\mathbb{P}(E)$
+\end_inset
+
+ using the normal distribution.
+\end_layout
+
+\begin_layout Enumerate
+Approximate 
+\begin_inset Formula $\mathbb{P}(E)$
+\end_inset
+
+ using the Poisson distribution.
+\end_layout
+
+\end_deeper
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Some continuous distributions
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose that the time required to replace a car's windshield can be represented
+ by an exponentially distributed random variable with parameter 
+\begin_inset Formula $\lambda=\frac{1}{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that it will take at least 3 hours to replace a
+ windshield?
+\end_layout
+
+\begin_layout Enumerate
+What is the probability that it will take at least 5 hours to replace a
+ windshield given that it hasn't been finished after 2 hours?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The number of years a u-phone functions is exponentially distributed with
+ parameter 
+\begin_inset Formula $\lambda=\frac{1}{8}$
+\end_inset
+
+.
+ If Pat buys a used u-phone, what is the probability that it will be working
+ after an additional 8 years?
+\end_layout
+
+\begin_layout Enumerate
+Suppose that the time (in minutes) required to check out a book at the library
+ can be represented by an exponentially distributed random variable with
+ parameter 
+\begin_inset Formula $\lambda=\frac{2}{11}$
+\end_inset
+
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the probability that it will take at least 5 minutes to check out
+ a book?
+\end_layout
+
+\begin_layout Enumerate
+What is the probability that it will take at least 11 minutes to check out
+ a book given that you've already waited for 6 minutes?
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be an exponential random variable with mean 
+\begin_inset Formula $\mathbb{E}\left[X\right]=1$
+\end_inset
+
+.
+ Define a new random variable 
+\begin_inset Formula $Y=e^{X}$
+\end_inset
+
+.
+ Find the p.d.f.
+ of 
+\begin_inset Formula $Y$
+\end_inset
+
+, 
+\begin_inset Formula $f_{Y}(y)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Suppose that 
+\begin_inset Formula $X$
+\end_inset
+
+ has an exponential distribution with parameter 
+\begin_inset Formula $\lambda=1$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $c>0$
+\end_inset
+
+.
+ Show that 
+\begin_inset Formula $Y=\frac{X}{c}$
+\end_inset
+
+ is exponential with parameter 
+\begin_inset Formula $\lambda=c$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be a uniform random variable over 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+.
+ Define a new random variable 
+\begin_inset Formula $Y=e^{X}$
+\end_inset
+
+.
+ Find the probability density function of 
+\begin_inset Formula $Y$
+\end_inset
+
+, 
+\begin_inset Formula $f_{Y}(y)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Multivariate distributions
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose that 2 balls are chosen without replacement from an urn consisting
+ of 5 white and 8 red balls.
+ Let 
+\begin_inset Formula $X$
+\end_inset
+
+ equal 
+\begin_inset Formula $1$
+\end_inset
+
+ if the first ball selected is white and zero otherwise.
+ Let 
+\begin_inset Formula $Y$
+\end_inset
+
+ equal 
+\begin_inset Formula $1$
+\end_inset
+
+ if the second ball selected is white and zero otherwise.
+ Find the probability mass function of 
+\begin_inset Formula $X,Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Suppose you roll two fair dice.
+ Find the probability mass function of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+, where 
+\begin_inset Formula $X$
+\end_inset
+
+ is the largest value obtained on any die, and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is the sum of the values.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Suppose the joint density function of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is 
+\begin_inset Formula $f(x,y)=\frac{1}{4}$
+\end_inset
+
+ for 
+\begin_inset Formula $0<x<2$
+\end_inset
+
+ and 
+\begin_inset Formula $0<y<2$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\mathbb{P}\left(\frac{1}{2}<X<1,\frac{2}{3}<Y<\frac{4}{3}\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\mathbb{P}\left(XY<2\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Calculate the marginal distributions 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+ adn 
+\begin_inset Formula $f_{Y}(y)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The joint probability density function of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is given by 
+\begin_inset Formula 
+\[
+f(x,y)=e^{-\left(x+y\right)},\,\,\,0\leq x<\infty,0\leq y<\infty.
+\]
+
+\end_inset
+
+Find 
+\begin_inset Formula $\mathbb{P}\left(X<Y\right)$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Suppose 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ are independent random variables and that 
+\begin_inset Formula $X$
+\end_inset
+
+ is exponential with 
+\begin_inset Formula $\lambda=\frac{1}{4}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is uniform on 
+\begin_inset Formula $(2,5)$
+\end_inset
+
+.
+ Calculate the probability that 
+\begin_inset Formula $2X+Y<8$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Consider 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ given by the joint density 
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+10x^{2}y & 0\leq y\leq x\leq1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the marginal pdfs, 
+\begin_inset Formula $f_{X}(x)$
+\end_inset
+
+ and 
+\begin_inset Formula $f_{Y}(x)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Are 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ independent random variables?
+\end_layout
+
+\begin_layout Enumerate
+Find 
+\begin_inset Formula $\mathbb{P}\left(Y\leq\frac{X}{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Find 
+\begin_inset Formula $\mathbb{P}\left(Y\leq\frac{X}{4}\mid Y\leq\frac{X}{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Find 
+\begin_inset Formula $\mathbb{E}\left[X\right]$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Consider 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ given by the joint density 
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+4xy & 0\leq x\leq1,0\leq y\leq1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Find the joint pdf's, 
+\begin_inset Formula $f_{X}$
+\end_inset
+
+ and 
+\begin_inset Formula $f_{Y}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Are 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ independent?
+\end_layout
+
+\begin_layout Enumerate
+Find 
+\begin_inset Formula $\mathbb{E}Y$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Consider 
+\begin_inset Formula $X,Y$
+\end_inset
+
+ given by the joint pdf
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+\frac{2}{3}\left(x+2y\right) & 0\leq x\leq1,0\leq y\leq1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+Are 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ independent random variables?
+\end_layout
+
+\begin_layout Enumerate
+Suppose that that gross weekly ticket sales for UConn basketball games are
+ normally distributed with mean 
+\begin_inset Formula $\$2,200,000$
+\end_inset
+
+ and standard deviation 
+\begin_inset Formula $\$230,000$
+\end_inset
+
+.
+ What is the probability that the total gross ticket sales over the next
+ two weeks exceeds 
+\begin_inset Formula $\$4,600,000$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Suppose the joint density function of the random variable 
+\begin_inset Formula $X_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{2}$
+\end_inset
+
+ are 
+\begin_inset Formula 
+\[
+f(x_{1},x_{2})=\begin{cases}
+4x_{1}x_{2} & 0<x_{1}<1,0<x_{2}<1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+Let 
+\begin_inset Formula $Y_{1}=2X_{1}+X_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y_{2}=X_{1}-3X_{2}$
+\end_inset
+
+.
+ What is the joint density function of 
+\begin_inset Formula $Y_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y_{2}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Enumerate
+Suppose the joint density function of the random variable 
+\begin_inset Formula $X_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{2}$
+\end_inset
+
+ are 
+\begin_inset Formula 
+\[
+f(x_{1},x_{2})=\begin{cases}
+\frac{3}{2}\left(x_{1}^{2}+x_{2}^{2}\right) & 0<x_{1}<1,0<x_{2}<1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+Let 
+\begin_inset Formula $Y_{1}=X_{1}-2x_{2}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y_{2}=2X_{1}+3X_{2}$
+\end_inset
+
+.
+ What is the joint density function of 
+\begin_inset Formula $Y_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $Y_{2}$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Expectations
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose the joint distribution for 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ is given by the joint probability mass function shown below:
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Y\backslash X$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $.2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calculate the covariance of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\mbox{Var}(X)$
+\end_inset
+
+ and 
+\begin_inset Formula $\mbox{Var}(Y)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\rho(X,Y)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ be random variable whose joint probability density function is given by
+ 
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+x+y & 0<x<1,0<y<1\\
+0 & \mbox{otherwise}.
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Calculate the covariance of 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\mbox{Var}(X)$
+\end_inset
+
+ and 
+\begin_inset Formula $\mbox{Var}(Y)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Calculate 
+\begin_inset Formula $\rho(X,Y)$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be normally distributed with mean 
+\begin_inset Formula $1$
+\end_inset
+
+ and variance 
+\begin_inset Formula $9$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $Y$
+\end_inset
+
+ be exponentially distributed with 
+\begin_inset Formula $\lambda=2$
+\end_inset
+
+.
+ Suppose 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ are independent.
+ Find 
+\begin_inset Formula $\mathbb{E}\left[\left(X-1\right)^{2}Y\right]$
+\end_inset
+
+.
+ (Hint: Use a propeties about expectations)
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Moment generating functions
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose that you have a fair 4-sided die, and let 
+\begin_inset Formula $X$
+\end_inset
+
+ be the random variable representing the value of the number rolled.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Write down the moment generating function for 
+\begin_inset Formula $X$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Use this moment generating function to compute the first and second moments
+ of 
+\begin_inset Formula $X$
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ be a random variable whose probability density function is given by
+\begin_inset Formula 
+\[
+f_{X}(x)=\begin{cases}
+e^{-2x}+\frac{1}{2}e^{-x} & x>0\\
+0 & \mbox{otherwise}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Write down the moment generating function for 
+\begin_inset Formula $X$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Use this moment generating function to compute the first and second moments
+ of 
+\begin_inset Formula $X$
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+An actuary determines that the revenue associated to a certain class of
+ accidents is a random variable, 
+\begin_inset Formula $X$
+\end_inset
+
+, with moment generating function
+\begin_inset Formula 
+\[
+M_{X}(t)=\frac{1}{\left(1-2500t\right)^{4}}
+\]
+
+\end_inset
+
+Calculate the standard deviation of the revenue for this class of accidents.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X$
+\end_inset
+
+ and 
+\begin_inset Formula $Y$
+\end_inset
+
+ be two independent random variables with respective moment generating functions
+ 
+\begin_inset Formula 
+\[
+m_{X}(t)=\frac{1}{1-5t},\,\,\,\,\mbox{if }t<\frac{1}{5},\,\,\,\, m_{Y}(t)=\frac{1}{\left(1-5t\right)^{2}},\,\,\,\,\mbox{if }t<\frac{1}{5}.
+\]
+
+\end_inset
+
+Find 
+\begin_inset Formula $\mathbb{E}\left(X+Y\right)^{2}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Chapter
+Limit Laws
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout Enumerate
+In a 162-game season, find the approximate probability that a team with
+ a 0.5 chance of winning will win at least 87 games.
+\end_layout
+
+\begin_layout Enumerate
+An individual students MATH 3160 Final exam score at UConn is a random variable
+ with mean 75 and variance 25, How many students would have to take the
+ examination to ensure with probability at least .9 that the class average
+ would be within 5 of 75?
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $X_{1},X_{2},\dots,X_{100}$
+\end_inset
+
+ be independent exponential random variables with parameter 
+\begin_inset Formula $\lambda=1$
+\end_inset
+
+.
+ Use the central limit theorem to approximate 
+\begin_inset Formula 
+\[
+\mathbb{P}\left(\sum_{i=1}^{100}X_{i}>90\right).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Suppose an insurance company has 10,000 automobile policy holders.
+ The expected yearly claim per policy holder is $240, with a standard deviation
+ of $800.
+ Approximate the probability that the total yearly claim is greater than
+ $2,500,000.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Suppose you are the only clerk at the UConn dairy bar.
+ Suppose that the checkout time at the dairy bar has a mean of 5 minutes
+ and a standard deviation of 2 minutes.
+ Estimate the probability that a clerk will serve at least 36 customers
+ during her 3-hour and a half shift.
+\end_layout
+
+\begin_layout Enumerate
+Shabazz Napier is a basketball player in the NBA.
+ His expected number of points per game is 15 with a standard deviation
+ of 5 points per game.
+ The NBA season is 82 games long.
+ Shabazz is guaranteed a ten million dollar raise next year if he can score
+ a total of 1300 points this season.
+ Approximate the probability that Shabazz will get a raise next season.
+ 
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\begin_layout --Separator--
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Research - Daniel Slonim</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config(
+{tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}}
+);
+</script>
+<script type="text/javascript" async
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<script type="text/JavaScript">
+     function SwitchVisibility(objId){
+	var el = document.getElementById(objId);
+     if (el.className == 'abstract_hide'){
+        el.style.display = "none";
+        el.className = 'abstract_show';
+     } else {
+	el.style.display = "block";
+        el.className = 'abstract_hide';
+	}
+	}
+</script>
+<style type="text/css">
+
+.leftnav {
+}
+.leftnavbig {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #666666;
+	text-decoration: none;
+}
+.leftnavbigcurrent {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #0099CC;
+	text-decoration: none;
+}
+.style5 {color: #000066}
+.style6 {color: #FFFFFF}
+.abstract {display: none}
+
+
+</style>
+
+
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<center><a href="http://purdue.edu/" class="logo">
+								
+									</span>
+<span class="title" style="color: #98700D;">Research</span>
+								</a></center>
+								<hr class="bluegradient" style="position: relative; top: -3em;">
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="research.html">Research</a></li>
+							<li><a href="teaching.html">Teaching</a></li>
+							<li><a href="#" onclick='window.open("DanielSlonimCV.pdf");return false;'>CV</a></li>
+							<li><a href="personal.html">About Me</a></li>
+							<li><a href="Seminar.html">Student Probability Seminar</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<!--<h1 style="color: #0f1938;">Research</h1>-->
+							<!--<span class="image main"><img src="images/pic13.jpg" alt="" /></span>-->
+							
+							
+							<!-- Interests -->
+							<!--To insert a heading:
+
+<h2 style="color: #98700D;"> Random Walks in Random Environments </h2>
+
+-->
+							<p>
+						
+							My main research area is random walks in random environments. A random walk is an easy enough concept: imagine a walker is standing on the number line. He starts at zero, and flips a fair coin. If it's heads, he steps to the right (goes up by one), and if it's tails, he steps to the left (goes down by one). You can already ask some interesting questions. If he keeps up this process for long enough, will he definitely come back to zero, or is there a chance he'll wander off in one direction and never return? After a large number of steps, what can we say about how likely the walker is to be found in a given range? How did he get roped into doing this in the first place? Does he find this random walking business tiresome and monotonous, or has he just gotten used to it like any other job?
+
+  <br><br>
+The above questions (well, at least the first two), are not that difficult to answer if you know some basic probability theory. But now suppose the coin isn't a fair coin, but is biased in one direction or the other. Maybe it sends you to the right $\frac23$ of the time and to the left $\frac13$ of the time. Or maybe it sends you to the left $\frac34$ of the time and to the right $\frac14$ of the time. In fact, suppose the walker doesn't just carry one coin around, but there's a different biased coin at every site, and after each step, he decides where to go next by flipping the coin found at his current location. Now say the coins themselves are chosen randomly at each site. Maybe there's a 50% chance at each site that the probability of stepping right will be $\frac23$, and a 50% chance that it will be $\frac14$. Or maybe it's uniformly distributed on the interval $[0,1]$. Or maybe it's distributed in some other way. If the probabilities of stepping left and stepping right (which we call <i>transition probabilities</i>) are chosen randomly according to some distribution, and then a random walk uses these transition probabilities, you have a random walk in a random environment (the "environment" is the configuration of various transition probabilities). The distribution of the transition probabilities will affect the long-term behavior of the walk, and the goal of this research area is to answer questions about <i>how</i> the distribution of the transition probabilities affects the walk.
+
+  <br><br>
+	
+Nearest-neighbor random walks in random environments in one dimension, which I've just described, have been extensively studied since 1975, and much is known about them. But there are ways to make the model even more difficult. One is to consider it in higher dimensions: what if instead of just going right or left, you can go right, left, up, or down (two dimensions)? You could also picture a random walk in three dimensions, and although you can't picture it, mathematicians can also study random walks in higher dimensions than three. Another way to make the model more difficult, even if you stick to one dimension, is to allow jumps of more than one unit. Maybe if you're at site 10, and instead of being able to jump only to your "nearest neighbors" (9 and 11), there's a positive probability of jumping up to 14, a positive probability of jumping up to 17, and a positive probability of jumping down to 6. To make things just a little easier, assume it's never possible to jump up by more than 7 units or down by more than 4 (or that there's some other bound for the length of the jumps). 
+	
+  <br><br>
+	
+These two models, random walks in random environments in higher dimensions and random walks in random environments with bounded jumps, have been the focus of my probability research. Much (but not all) of the research I've done has to do with models where the transition probability vectors are drawn from a type of distribution called a Dirichlet distribution. I have also done some work that has nothing to do with probability in an area of math called symbolic dynamics. For more details, see my <a href="ResearchStatement.pdf" target="_blank">research statment</a> and/or the abstracts of my papers (or read even more of the papers if you'd like!).		
+
+  <br><br>
+							
+
+
+
+							
+							<!-- Preprints -->
+							<h2 style="color: #98700D;"> Preprints </h2> 
+
+					<ol type ="1">
+
+
+				<li>Slonim, D.J.,  "Random Walks in Dirichlet Random Environments on $\mathbb{Z}$ with Bounded Jumps". <a href="https://arxiv.org/abs/2104.14950"> arXiv:2104.14950</a>   
+<a href="javascript:SwitchVisibility('Abstract1')">View Abstract</a>
+<div class="abstract" id="Abstract1"><br>
+  We examine a class of random walks in random environments on $\mathbb{Z}$ with bounded jumps, a generalization of the classic one-dimensional model. The environments we study have i.i.d. transition probability vectors drawn from Dirichlet distributions. For this model, we characterize recurrence and transience, and in the transient case we characterize ballisticity. For ballisticity, we give two parameters, $\kappa_0$ and $\kappa_1$. The parameter $\kappa_0$ governs finite trapping effects, and $\kappa_1$ governs repeated traversals of arbitrarily large regions of the graph. We show that the walk is right-transient if and only if $\kappa_1>0$, and in that case it is ballistic if and only if $\min(\kappa_0,\kappa_1)>1$. 
+</div>
+</a> <br><br> </li>
+							
+							<li>Slonim, D.J., "A zero-one law for random walks in random environments on $\mathbb{Z}^2$ with bounded jumps". 							 	<a href="https://arxiv.org/abs/2108.11424"> arXiv:2108.11424</a> 
+							<a href="javascript:SwitchVisibility('Abstract2')">View Abstract</a>
+							<div class="abstract" id="Abstract2"><br>
+								   Zerner and Merkl in 2001 proved a 0-1 law for directional transience for planar random walks in random environments. Later, in 2007, Zerner provided a simplified proof. We extend the result to non-planar i.i.d. random walks in random environments on $\mathbb{Z}^2$ with bounded jumps. As an application, we complete a characterization of directional transience (for a given direction) for random walks in Dirichlet environments with bounded jumps in all dimensions. Such a characterization was previously known for the nearest-neighbor case of Dirichlet environments.
+							</div>
+							</a> <br><br></li>
+
+
+							<li> Abram, W.C., Lagarias, J.C., and Slonim, D.J., "Interleaving of path sets". <a
+							href="https://arxiv.org/abs/2101.02441"> arXiv:2101.02441</a> 
+							<a href="javascript:SwitchVisibility('Abstract3')">View Abstract</a>
+							<div class="abstract" id="Abstract3"><br>
+								Path sets are spaces of one-sided infinite symbol sequences corresponding to the one-sided infinite walks beginning at a fixed initial vertex in a directed labeled graph. Path sets are a generalization of one-sided sofic shifts. This paper studies decimation operations $\psi_{j,n}(\cdot)$ which extract symbol sequences in infinite arithmetic progressions$\pmod n$ starting with the symbol at position $j$. It also studies a family of $n$-ary interleaving operations, one for each arity $n$, which act on an ordered set $(X_0,X_1,\ldots,X_{n−1})$ of one-sided symbol sequences on a finite alphabet $\mathcal{A}$, to produce a set $X$ of all output sequences obtained by interleaving the symbols of words $x_i$ in each $X_i$ in arithmetic progressions$\pmod n$. It studies a set of closure operations relating interleaving and decimation. It reviews basic algorithmic results on presentations of path sets and existence of a minimal right-resolving presentation. It gives an algorithm for computing presentations of decimations of path sets from presentations of path sets, showing the minimal right-resolving presentation of $\psi_{j,n}(X)$ has at most one more vertex than a minimal right-resolving presentation of $X$. It shows that a path set has only finitely many distinct decimations. It shows the class of path sets on a fixed alphabet is closed under all interleaving operations, and gives algorithms for computing presentations of $n$-fold interleavings of given sets $X_i$. It studies interleaving factorizations and classifies path sets that have infinite interleaving factorizations, and gives an algorithm to recognize them. It shows a finiteness of a process of iterated interleaving factorizations, which "freezes" factors that have infinite interleavings.
+							</div>
+							</a> <br><br> </li>
+					
+							</ol>							
+
+							
+						
+
+								<!-- Papers -->
+							<h2 style="color: #98700D;"> Published Papers </h2> 
+
+					<ol type ="1">
+
+
+		<!-- Here's an example of one of Phanuel's papers. he links to the paper but also to the arxiv. 
+
+
+							<li> <a href="https://projecteuclid.org/euclid.aop/1537862434">Banerjee, Sayan; Gordina, Maria; Mariano, Phanuel.  <i> Coupling in the Heisenberg group 							and its applications to gradient estimates</i>. <b>Ann. Probab.</b> 46 (2018), no. 6, 3275--3312.</a><a
+							href="https://arxiv.org/abs/1610.06430"> arXiv:1610.06430</a> <br><br></li>
+
+-->
+
+							<li> <a href="https://www.sciencedirect.com/science/article/pii/S0196885820301639">Abram, W.C., Lagarias, J.C., and Slonim, D.J., "Decimation and Interleaving Operations in One-Sided Symbolic Dynamics". Adv. in Appl. Math. 126 (2021)</a><a
+							href="https://arxiv.org/abs/2010.15215"> arXiv:2010.15215</a> 
+							<a href="javascript:SwitchVisibility('Abstract4')">View Abstract</a>
+							<div class="abstract" id="Abstract4"><br>
+								This paper studies subsets of one-sided shift spaces on a finite alphabet. Such subsets arise in symbolic dynamics, in fractal constructions, and in number theory. We study a family of decimation operations, which extract subsequences of symbol sequences in infinite arithmetic progressions, and show these operations are closed under composition. We also study a family of $n$-ary interleaving operations, one for each $n\geq1$. Given subsets $X_0,X_1,\ldots,X_{n-1}$ of such a shift space, the $n$-ary interleaving operation produces a set whose elements combine individual elements ${\bf x}_i$, one from each $X_i$, by interleaving their symbol sequences in arithmetic progressions$\pmod n$. We determine algebraic relations between decimation and interleaving operations and the shift map. We study set-theoretic $n$-fold closure operations $X\mapsto X^{[n]}$, which interleave decimations of $X$ of modulus level $n$. A set is $n$-factorizable if $X=X^{[n]}$. The $n$-fold interleaving operations are closed under composition and are idempotent. To each $X$ we assign the set $\mathscr{N}(X)$ of all values $n\geq1$ for which $X=X^{[n]}$. We characterize the possible sets $\mathscr{N}(X)$ as nonempty sets of positive integers that form a distributive lattice under the divisibility partial order and are downward closed under divisibility. We show that all sets of this type occur. We introduce a class of weakly shift-stable sets and show that this class is closed under all decimation, interleaving, and shift operations. We study two notions of entropy for subsets of the full one-sided shift and show that they coincide for weakly shift-stable $X$, but can be different in general. We give a formula for entropy of interleavings of weakly shift-stable sets in terms of individual entropies.
+							</div>
+							</a>  <br><br></li>
+							</ul>							
+							</ol>
+
+								<!-- Papers -->
+							<h2 style="color: #98700D;"> Dissertation </h2> 
+
+
+							<li> <a href="SlonimThesis.pdf">Random Walks in Dirichlet Environments with Bounded Jumps</a>
+							
+							<a href="javascript:SwitchVisibility('Abstract5')">View Abstract</a>
+							<div class="abstract" id="Abstract5"><br>
+								 This thesis studies non-nearest-neighbor random walks in random environments (RWRE) on $\mathbb{Z}$ and $\mathbb{Z}^d$ that are drawn in an i.i.d. way according to a Dirichlet distribution. We complete a characterization of recurrence and transience in a given direction for random walks in Dirichlet environments (RWDE) by proving directional recurrence in the case where the Dirichlet parameters are balanced and the annealed drift is zero. As a step toward this, we prove a 0-1 law for directional transience of i.i.d. RWRE on $\mathbb{Z}^2$ with bounded jumps. Such a 0-1 law was proven by Zerner and Merkl for nearest-neighbor RWRE in 2001, and Zerner gave a simpler proof in 2007. We modify the latter argument to allow for bounded jumps. We then characterize ballisticity, or nonzero limiting velocity, of transient RWDE on $\mathbb{Z}$. It turns out ballisticity is controlled by two parameters, $\kappa_0$ and $\kappa_1$. The parameter $\kappa_0$, which controls finite traps, is known to characterize ballisticity for nearest-neighbor RWDE on $\mathbb{Z}^d$, $d\geq3$, where transient walks are ballistic if and only if $\kappa_0>1$. The parameter $\kappa_1$, which controls large-scale backtracking, is known to characterize ballisticity for nearest-neighbor RWDE on $\mathbb{Z}$, where transient walks are ballistic if and only if $|\kappa_1|>1$. We show that in our model, transient walks are ballistic if and only if $\min(\kappa_0,|\kappa_1|)>1$. Our characterization is thus a mixture of known characterizations of ballisticity for nearest-neighbor one-dimensional and higher-dimensional cases. We also prove more detailed theorems that help us better understand the phenomena affecting ballisticity.
+							</div>
+							</a>  <br><br></li>
+							</ul>		
+							
+						</div>
+							
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<ul class="icons">
+									<!-- Office --> 
+									<li>
+									<span href="#" class="icon style2 fa-home" style="background-color: #98700D;">
+									<span class="label">Office</span></span>
+									<span style="color: #fff; padding-left: 1em;">MATH 645</span>
+									</li>
+									<!-- Phone --> 
+									<li>
+									
+									</li>
+									<!-- Email -->
+									<li>
+									<span href="#" class="icon style2 fa-envelope" style="background-color: #98700D;">
+									<span class="label">Email</span></span>
+									<span style="color: #fff; padding-left: 1em;">my first initial my last name at my university period edu</span>
+									</li>
+								</ul>
+							</section>
+							<section>
+							<span class="icon fa-clock-o" style="color: #fff;"/>
+							<span style="color: #fff; font-size: 110%; padding-left: 1em; text-decoration: underline;">Office Hours</span><br>
+							<div style="color: rgba(255,255,255,0.8); padding-left: 2em;">
+							by appointment
+							</div>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Daniel Slonim. All rights reserved</li>
+								<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>Site copied in part from that of <a href="http://www.math.union.edu/~marianop/">Phanuel Mariano</a></li> (with permission), which was composed by <a href="http://www.davidmathlogic.com">David Nichols</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
